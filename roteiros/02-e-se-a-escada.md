@@ -2,7 +2,7 @@
 
 **Formato:** "E se…", narrado em primeira pessoa por **Namiques**, com quebras da quarta parede.
 **Personagens:** **Namiques** (narrador e protagonista, músico) e **Lívia** (bailarina).
-**Duração estimada:** ~3:00 (≈ 650 palavras, narração calma de ~210 palavras/min, mais as pausas).
+**Duração estimada:** ~3:15 (≈ 700 palavras, narração calma de ~210 palavras/min, mais as pausas). Para ficar em ~2:40, dá pra cortar o bloco 6 até "Por uma cadeira. Por um minuto.".
 **Base:** história original do criador, reescrita em primeira pessoa.
 
 ### Legenda das marcações
