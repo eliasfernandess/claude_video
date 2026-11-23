@@ -2,7 +2,7 @@
 
 **Formato:** "E se…": uma pergunta ao espectador, depois uma história em primeira pessoa e, no fim, a pergunta volta para quem está assistindo.
 **Inspiração:** o tema de *La La Land*: dois sonhadores, o amor contra o sonho, e a sequência do que teria sido. A história, os personagens e as cenas são originais e adaptados para o Brasil.
-**Duração-alvo:** ~2:40 (≈ 590 palavras, narração a ~220 palavras/min).
+**Duração-alvo:** ~2:30 (≈ 520 palavras a ~220 palavras/min, mais as pausas).
 **Narradora:** Júlia, adulta (~27 anos). Voz feminina calma, um pouco rouca. Mais lenta nos momentos de virada.
 **Ferida que o vídeo toca:** todo sonho cobra um preço, e às vezes quem paga é outra pessoa.
 
