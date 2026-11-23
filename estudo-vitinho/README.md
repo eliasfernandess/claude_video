@@ -136,7 +136,7 @@ Veja as imagens em `frames/`.
 ## 4. Roteiro de exemplo (original, seguindo a fórmula)
 
 **Título:** Nesta cidade, sua sombra diz a verdade 🌑
-**Duração estimada:** ~2:20 (≈ 510 palavras a 220 ppm)
+**Duração estimada:** ~2:00 (≈ 440 palavras a 220 ppm; para chegar a 2:30, acrescente mais uma tentativa frustrada na escalada)
 
 > [CENA: praça ensolarada, pessoas sorrindo, sombras no chão fazendo outra coisa]
 > **Nesta cidade, a sua sombra não te imita. Ela faz o que você está sentindo de verdade.**
