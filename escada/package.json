@@ -1,0 +1,3 @@
+{ "name": "escada-lowpoly", "private": true, "type": "module",
+  "description": "A escada: video low-poly (estilo da skill /low-poly) renderizado com three.js + Playwright",
+  "dependencies": { "three": "0.169.0" } }

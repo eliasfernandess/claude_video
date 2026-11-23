@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>A escada</title>
+<style>
+@font-face{font-family:'Inter';font-weight:700;src:url(fonts/inter-700-normal.woff2) format('woff2')}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;background:#000;font-family:'Inter',sans-serif}
+#c{position:absolute;left:0;top:0;width:1080px;height:1920px;display:block;image-rendering:pixelated;image-rendering:crisp-edges}
+/* legenda no estilo da skill /low-poly: amarela, pequena, contorno preto fino, ~2/3 da altura */
+.cap{position:absolute;left:90px;width:900px;top:1250px;text-align:center;font:700 50px/1.18 'Inter';color:#fff21a;letter-spacing:.04em;
+  visibility:hidden;
+  text-shadow:-3px -3px 0 #000,3px -3px 0 #000,-3px 3px 0 #000,3px 3px 0 #000,0 -3px 0 #000,0 3px 0 #000,-3px 0 0 #000,3px 0 0 #000,0 4px 0 #000}
+.cap.whisper{color:#d9d4ff;font-size:44px;letter-spacing:.12em}
+.cap.quote{color:#ffffff}
+.cap.end{color:#ffffff;font-size:40px;letter-spacing:.1em;top:930px;text-shadow:none}
+#title{position:absolute;left:0;width:1080px;top:520px;text-align:center;font:700 86px/1 'Inter';color:#fff;letter-spacing:.32em;visibility:hidden;
+  text-shadow:-4px -4px 0 #000,4px -4px 0 #000,-4px 4px 0 #000,4px 4px 0 #000,0 6px 0 #000}
+#split{position:absolute;left:0;top:957px;width:1080px;height:6px;background:#0b0b0b;visibility:hidden}
+#fade{position:absolute;inset:0;background:#000;opacity:0;pointer-events:none}
+</style>
+<script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+<script src="timeline.js"></script>
+</head>
+<body>
+<div id="root">
+<canvas id="c" width="360" height="640"></canvas>
+<div id="split"></div>
+<div id="title"></div>
+<div class="cap" id="cap"></div>
+<div id="fade"></div>
+</div>
+<script type="module">
+import { renderAt } from './shots.js';
+window.renderAt = renderAt;
+await document.fonts.load("700 50px Inter");
+const q = new URLSearchParams(location.search);
+renderAt(Number(q.get('t') || 0));
+window.__ready = true;
+</script>
+</body></html>
