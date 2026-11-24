@@ -1,0 +1,32 @@
+{
+  "voz": "/tmp/claude-0/-home-user-claude-video/5684e1ff-cf4b-5410-8afb-705b69aedd94/scratchpad/kit/Kit-E-se-Animado/meus-videos/o-roteiro/assets/audio/voz.wav",
+  "duracao": 86.08,
+  "biblioteca": "../../audio",
+  "saida_audio": "render/mix.wav",
+  "trilha": [
+    {"som": "tensao_misterio", "de": 0, "ate": 30.9, "ganho": -24},
+    {"som": "melancolia", "de": 30.4, "ate": 52.6, "ganho": -24},
+    {"som": "tensao_misterio", "de": 52.1, "ate": 70.8, "ganho": -24},
+    {"som": "esperanca", "de": 70.3, "ate": 86.08, "ganho": -23}
+  ],
+  "abaixar_trilha_na_fala": 9,
+  "cortes": [4.48, 11.10, 24.44, 30.85, 33.26, 41.96, 49.87, 52.51, 62.78, 75.23, 83.17],
+  "ganho_cortes": -25,
+  "efeitos": [
+    {"t": 0.0, "som": "teclado", "ganho": -22},
+    {"t": 6.3, "som": "papel", "ganho": -19},
+    {"t": 17.4, "som": "risadinha", "ganho": -24},
+    {"t": 19.1, "som": "papel", "ganho": -19},
+    {"t": 24.44, "som": "vibra", "ganho": -17},
+    {"t": 27.4, "som": "teclado", "ganho": -24},
+    {"t": 43.1, "som": "tic_tac", "ganho": -22},
+    {"t": 49.0, "som": "plim_triste", "ganho": -19},
+    {"t": 51.8, "som": "impacto", "ganho": -20},
+    {"t": 61.0, "som": "riser", "ganho": -22},
+    {"t": 62.78, "som": "impacto", "ganho": -19},
+    {"t": 67.3, "som": "whoosh_curto", "ganho": -20},
+    {"t": 75.23, "som": "teclado", "ganho": -23},
+    {"t": 83.6, "som": "papel", "ganho": -16},
+    {"t": 84.0, "som": "sopro_magico", "ganho": -19}
+  ]
+}

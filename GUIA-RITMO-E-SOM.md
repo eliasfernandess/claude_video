@@ -9,8 +9,8 @@ Criado depois do vídeo "O topo", comparando-o com os 50 vídeos longos do perfi
 | Palavras por segundo | **3,65** (faixa de 3,3 a 4,0; top 8: 3,4 a 3,8) | 2,95 | **3,5 a 3,8** |
 | Maior pausa entre frases | 0,48 s (quase nunca passa de 0,5 s) | 0,50 s, com 17 pausas acima de 0,3 s | **até 0,2 s** |
 | Trocas de imagem por minuto | **17 a 29** (média de ~23 → uma a cada ~2,6 s) | 10 | **20 a 25** |
-| Trilha de fundo | contínua do 1º ao último segundo | nenhuma | **sempre** |
-| Efeitos sonoros | pontuais nas ações | nenhum | **em toda ação e em todo corte** |
+| Trilha de fundo | contínua do 1º ao último segundo | nenhuma | **sempre, baixa (-24 dB)** |
+| Efeitos sonoros | pontuais nas ações | nenhum | **só nos momentos-chave (~1 a cada 6 s)** |
 | Começo e fim | fala desde 0,0 s e termina na última palavra | 1,8 s parado no fim | **voz em 0,0 s; fim 0,4 s após a última palavra** |
 
 ## 2. Regras novas
@@ -31,11 +31,13 @@ Criado depois do vídeo "O topo", comparando-o com os 50 vídeos longos do perfi
 - Câmera sempre se movendo dentro de cada plano (empurrar, recuar, deslizar).
 - Nada de tela parada: o vídeo termina 0,4 s depois da última palavra.
 
-### Som
-- **Trilha contínua** do início ao fim, escolhida pelo clima de cada trecho (pode trocar no meio com transição de 1 s). Ela abaixa ~6 a 7 dB enquanto há fala.
-- **Whoosh curto em todo corte de imagem** (automático no mixador).
-- **Efeito em toda ação que aparece na tela** (veja a tabela abaixo) e **som ambiente** em cada lugar (rua, vento, cidade, chuva).
+### Som (ajustado a pedido: discreto, a narração sempre na frente)
+- **Trilha contínua, mas baixa:** ganho **-24 dB** e abaixando mais **9 dB** quando há fala (`"abaixar_trilha_na_fala": 9`). Ela não pode competir com a voz.
+- **Poucos efeitos:** só nos momentos-chave (revelação, virada, objeto importante), **cerca de 1 a cada 6 s**, com ganho entre **-16 e -24 dB**. Nada de efeito em toda ação.
+- **Whoosh só nas trocas de cenário** (não em todo corte de câmera), bem baixo: `"ganho_cortes": -25`.
+- Ambientes, se usados, bem baixos (-26 dB ou menos).
 - Volume final: **-14 LUFS** (padrão de Reels, TikTok e Shorts), pico de -1,5 dB. O mixador já faz isso.
+- Exemplo calibrado: `videos/o-roteiro/som.json`.
 
 | Situação na tela/fala | Efeito (`audio/sfx/`) |
 |---|---|
@@ -75,7 +77,7 @@ Criado depois do vídeo "O topo", comparando-o com os 50 vídeos longos do perfi
    (use `--vel 1.1` se a voz veio na velocidade 1,0). Ele mostra o ritmo final (palavras/s) e cria `cortes_sugeridos.json`.
 4. **Cenas** escritas seguindo os cortes sugeridos (cenários reaproveitados + cortes secos de câmera).
 5. **Revisão por folhas de quadros** (como no "O topo").
-6. **Roteiro de som** (`som.json`): trilha por trecho, efeitos de cada ação, ambientes e a lista de cortes. Exemplo completo: `videos/o-topo/som.json`.
+6. **Roteiro de som** (`som.json`): trilha por trecho, efeitos de cada ação, ambientes e a lista de cortes. Exemplo calibrado: `videos/o-roteiro/som.json`.
 7. **Mixagem:**
    ```bash
    python3 ferramentas/mixar.py videos/<nome>/som.json
