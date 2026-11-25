@@ -141,7 +141,7 @@ export const CENAS = [
     [24.64, [.12, 1.62, 2.2], [.1, 1.62, 2.05], [0, 1.58, 1.2], [0, 1.58, 1.2], 30]], { disco: true }), 36.16, 60.80],
   // 60.80 — a festa: Seu Bento, a galinha dança, a gargalhada, o silêncio, "cego de tanto rir", a piscadinha
   [cenaPraca((u, o) => { const { ti, be, gal, cs } = o; ti.place(0, 1.6, 0);
-    const sobe = smooth(3.41, 5.0, u); be.place(lerp(2.6, .1, sobe), lerp(-8.8, -10.7, sobe), lerp(0, .87, smooth(4.2, 4.6, u))); if (u > 3.41 && u < 5.0) be.walk(o.t, .8, .7);
+    const sobe = smooth(3.41, 5.0, u); be.place(lerp(4.6, .1, sobe), lerp(-10.2, -10.7, sobe), lerp(0, .87, smooth(4.2, 4.6, u))); if (u > 3.41 && u < 5.0) be.walk(o.t, .8, .7);
     const desce = smooth(26.5, 28.2, u); if (u > 26.5) be.place(lerp(.1, .9, desce), lerp(-10.7, 1.0, desce), lerp(.87, 0, smooth(26.5, 26.9, u)));
     const dancando = (u > 7.76 && u < 12.5) || u > 34.5; gal.visible = (u > 5.37 && u < 26.6) || u > 34.5; if (u <= 26.6) gal.position.set(.75, 2.05 + .87 + (dancando ? Math.abs(Math.sin(u * 8)) * .25 : 0), -10.4); else gal.position.set(.45, 1.45 + Math.abs(Math.sin(u * 8)) * .15, 1.4); gal.rotation.z = dancando ? Math.sin(u * 10) * .5 : 0;
     be.oculos(u < 26.67, 0); if (u > 26.67 && u < 34.5) be.piscar(true); else { be.piscar(false); be.eye('happy'); }
@@ -151,8 +151,8 @@ export const CENAS = [
     cs.forEach((p, i) => { p.place(-2.6 + i * 1.05, -2.2 - (i % 2) * .8, 0); if (u > 24.7 && u < 26.67) p.cheer(o.t, i, 1); else p.pose({ head: u > 16.45 && u < 19.67 ? (i < 3 ? -12 : 12) : 0 }); p.eye(u > 16.45 && u < 19.67 ? 'wide' : u > 24.7 && u < 26.67 ? 'happy' : 'open'); }); },
     [
     [1.53, [0, 6, 9], [0, 5.4, 8], [0, 2, -6], [0, 2, -6.5]],
-    [3.41, [0, 3.4, -5.0], [0, 3.3, -5.5], [0, 2.0, -11], [0, 2.0, -11], 34],
-    [5.37, [1.6, 2.4, -6.8], [1.4, 2.5, -7.4], [.1, 2.4, -10.7], [.1, 2.6, -10.7]],
+    [3.41, [8.2, 2.2, -8.6], [7.8, 2.2, -8.9], [4.5, 1.3, -10.2], [4.3, 1.35, -10.3], 36],
+    [5.37, [5.6, 2.6, -5.4], [3.2, 2.8, -6.2], [2.6, 1.8, -10.4], [.5, 2.3, -10.7], 42],
     [7.76, [1.1, 2.9, -8.3], [1.05, 2.9, -8.45], [.42, 2.65, -10.6], [.42, 2.7, -10.6], 32],
     [9.03, [.6, 2.9, -8.7], [.6, 2.9, -8.8], [.5, 2.85, -10.5], [.5, 2.85, -10.5], 30],
     [10.21, [-1.8, 2.8, -4], [-1.5, 2.8, -4.4], [.2, 2.4, -10.5], [.2, 2.4, -10.5]],
