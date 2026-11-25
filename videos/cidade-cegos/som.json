@@ -1,0 +1,32 @@
+{
+  "voz": "/tmp/claude-0/-home-user-claude-video/5684e1ff-cf4b-5410-8afb-705b69aedd94/scratchpad/kit/Kit-E-se-Animado/meus-videos/cidade-cegos/assets/audio/voz.wav",
+  "duracao": 116.45,
+  "biblioteca": "../../audio",
+  "saida_audio": "render/mix.wav",
+  "trilha": [
+    {"som": "trilha_usuario", "de": 0, "ate": 116.45, "ganho": -17.5, "fade": 0.6}
+  ],
+  "abaixar_trilha_na_fala": 9,
+  "cortes": [4.71, 8.65, 10.81, 18.94, 22.63, 28.09, 36.16, 60.80, 97.77],
+  "ganho_cortes": -25,
+  "efeitos": [
+    {"t": 13.36, "som": "ding", "ganho": -22},
+    {"t": 15.42, "som": "sino", "ganho": -21},
+    {"t": 21.96, "som": "pop", "ganho": -20},
+    {"t": 26.24, "som": "risadinha", "ganho": -23},
+    {"t": 28.10, "som": "passos", "ganho": -24},
+    {"t": 40.77, "som": "pop", "ganho": -21},
+    {"t": 44.61, "som": "pop", "ganho": -21},
+    {"t": 49.21, "som": "sopro_magico", "ganho": -20},
+    {"t": 54.64, "som": "toc", "ganho": -18},
+    {"t": 57.61, "som": "brilho", "ganho": -22},
+    {"t": 60.80, "som": "swell", "ganho": -22},
+    {"t": 66.49, "som": "pop", "ganho": -21},
+    {"t": 75.56, "som": "risadinha", "ganho": -18},
+    {"t": 87.05, "som": "riser", "ganho": -24},
+    {"t": 89.25, "som": "brilho", "ganho": -19},
+    {"t": 97.90, "som": "sino", "ganho": -20},
+    {"t": 106.97, "som": "brilho", "ganho": -21},
+    {"t": 115.00, "som": "ding", "ganho": -20}
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "duracao": 116.45,
+  "palavrasPorLegenda": 3,
+  "destaques": [
+    "cego",
+    "eu",
+    "tiaguin",
+    "expulso",
+    "ponte",
+    "finjo",
+    "pipoca",
+    "pato",
+    "poste",
+    "bento",
+    "galinha",
+    "giz",
+    "disco",
+    "festa",
+    "gargalhada",
+    "silêncio",
+    "rir",
+    "pisca",
+    "enxerga",
+    "segredo",
+    "sol",
+    "dividir"
+  ],
+  "trocas": {},
+  "elementos": [
+    {
+      "tipo": "etiqueta",
+      "texto": "TESTE FINAL",
+      "inicio": 62.3,
+      "fim": 64.2
+    }
+  ]
+}
