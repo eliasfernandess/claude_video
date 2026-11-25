@@ -1,6 +1,13 @@
 # Instruções para os vídeos deste repositório
 
-Este repositório produz vídeos verticais narrados (estilo "E se…") com o Kit "E se animado". Antes de qualquer vídeo novo, leia `GUIA-RITMO-E-SOM.md` e siga as regras dele. Resumo do que não pode faltar:
+Este repositório produz vídeos verticais narrados (estilo "E se…") com o Kit "E se animado". **Há 3 estilos**, descritos em `ESTILOS.md`:
+- Estilo 1: conto rápido, tipo Vitinho;
+- Estilo 2: "E se" + física, tipo @rmhkaiser;
+- Estilo 3: "E se" + jogo, tipo @toonscartoons00.
+
+Pergunte qual estilo usar se a pessoa não disser. Ritmo, legenda, visual e som mudam de um estilo para outro: siga a tabela do `ESTILOS.md`.
+
+As regras abaixo são as do **Estilo 1**. Antes de um vídeo nesse estilo, leia `GUIA-RITMO-E-SOM.md`. Resumo do que não pode faltar no Estilo 1:
 
 - **Ritmo de 3,5 a 3,8 palavras por segundo** (perfil de referência: 3,65). Roteiro = duração × 3,65 palavras. Sempre passe a voz por `ferramentas/apertar_voz.py` (o `ferramentas/novo_video.py` já faz isso) e confira o ritmo que ele imprime.
 - **Sem silêncio:** pausas de até 0,2 s, voz começando em 0 s, fim 0,4 s depois da última palavra.
