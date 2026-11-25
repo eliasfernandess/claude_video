@@ -18,7 +18,7 @@ Antes de começar um vídeo, escolha o estilo. Se a pessoa não disser qual, per
 | `novo_video.py` | padrão (`--pausa 0.18`) | `--vel 1.0 --pausa 0.35` | `--vel 1.0 --pausa 0.45` |
 | Pausas | até 0,2 s | até 0,35 s | até 0,45 s, antes das viradas |
 | Troca de imagem | a cada 2 a 3,5 s | a cada ~2,2 s | a cada ~2,5 s, com muitos closes |
-| Personagens | Cabeça preta lisa (Tiaguin loiro, morena cacheada) | Rosto de pele com expressões (`kit-extras/estilo-b/char.js`) | Rosto de pele + roupa de aventureiro de RPG |
+| Personagens (protagonista sempre o Tiaguin) | Cabeça preta lisa (Tiaguin loiro) | Rosto de pele com expressões (`kit-extras/estilo-b/char.js`) | Rosto de pele + roupa de aventureiro de RPG |
 | Luz e cor | Clara, dia, cores do kit | Clara, granulado leve, vinheta | **Escura e de cinema:** fim de tarde roxo, masmorra, tocha, luz estourada |
 | Legenda | Frase normal, pequena, embaixo do meio, palavra-chave amarela | CAIXA ALTA grossa (Oswald), 3 palavras, amarelo e vermelho | CAIXA ALTA semicondensada (tipo DIN), menor, amarelo |
 | Informação na tela | Pouca | Cards brancos com etiqueta vermelha, "PÁ!", diagramas em papel bege | **HUD de jogo:** painel escuro, nível, barra de vida, dano "-1", "+100", "NÍVEL 2", cronômetro |
