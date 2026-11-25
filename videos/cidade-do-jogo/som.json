@@ -1,0 +1,270 @@
+{
+ "voz": "/tmp/claude-0/-home-user-claude-video/5684e1ff-cf4b-5410-8afb-705b69aedd94/scratchpad/kit/Kit-E-se-Animado/meus-videos/cidade-do-jogo/assets/audio/voz.wav",
+ "biblioteca": "../../audio",
+ "saida_audio": "render/mix.wav",
+ "trilha": [
+  {
+   "som": "esperanca",
+   "de": 0,
+   "ate": 21.6,
+   "ganho": -21
+  },
+  {
+   "som": "tensao_misterio",
+   "de": 21.2,
+   "ate": 94.7,
+   "ganho": -21
+  },
+  {
+   "som": "esperanca",
+   "de": 94.4,
+   "ate": 112.52,
+   "ganho": -21
+  }
+ ],
+ "abaixar_trilha_na_fala": 6,
+ "cortes": [
+  9.16,
+  10.19,
+  11.4,
+  21.33,
+  29.14,
+  41.34,
+  42.12,
+  46.78,
+  57.43,
+  62.25,
+  65.83,
+  76.97,
+  103.69,
+  110.42
+ ],
+ "ganho_cortes": -26,
+ "efeitos": [
+  {
+   "t": 5.4,
+   "som": "jogo_nivel",
+   "ganho": -22
+  },
+  {
+   "t": 6.84,
+   "som": "jogo_blip",
+   "ganho": -20
+  },
+  {
+   "t": 9.68,
+   "som": "jogo_dano",
+   "ganho": -22
+  },
+  {
+   "t": 10.8,
+   "som": "toc",
+   "ganho": -20
+  },
+  {
+   "t": 13.35,
+   "som": "jogo_moeda",
+   "ganho": -21
+  },
+  {
+   "t": 14.15,
+   "som": "jogo_moeda",
+   "ganho": -21
+  },
+  {
+   "t": 15.0,
+   "som": "jogo_moeda",
+   "ganho": -21
+  },
+  {
+   "t": 17.1,
+   "som": "jogo_menu",
+   "ganho": -22
+  },
+  {
+   "t": 21.33,
+   "som": "impacto",
+   "ganho": -20
+  },
+  {
+   "t": 23.35,
+   "som": "tic_tac",
+   "ate": 25.8,
+   "ganho": -25
+  },
+  {
+   "t": 25.9,
+   "som": "jogo_blip",
+   "ganho": -21
+  },
+  {
+   "t": 29.9,
+   "som": "jogo_erro",
+   "ganho": -22
+  },
+  {
+   "t": 32.95,
+   "som": "sopro_magico",
+   "ganho": -23
+  },
+  {
+   "t": 37.6,
+   "som": "jogo_moeda",
+   "ganho": -21
+  },
+  {
+   "t": 40.3,
+   "som": "plim_triste",
+   "ganho": -21
+  },
+  {
+   "t": 41.34,
+   "som": "swell",
+   "ganho": -21
+  },
+  {
+   "t": 42.3,
+   "som": "passos",
+   "ate": 46.6,
+   "ganho": -24
+  },
+  {
+   "t": 46.8,
+   "som": "jogo_menu",
+   "ganho": -20
+  },
+  {
+   "t": 49.1,
+   "som": "impacto",
+   "ganho": -21
+  },
+  {
+   "t": 50.3,
+   "som": "pop",
+   "ganho": -20
+  },
+  {
+   "t": 51.39,
+   "som": "pop",
+   "ganho": -20
+  },
+  {
+   "t": 52.53,
+   "som": "pop",
+   "ganho": -20
+  },
+  {
+   "t": 53.9,
+   "som": "jogo_nivel",
+   "ganho": -22
+  },
+  {
+   "t": 58.65,
+   "som": "jogo_moeda",
+   "ganho": -22
+  },
+  {
+   "t": 59.55,
+   "som": "splash",
+   "ganho": -21
+  },
+  {
+   "t": 63.65,
+   "som": "impacto",
+   "ganho": -22
+  },
+  {
+   "t": 66.4,
+   "som": "fogo",
+   "ate": 68.7,
+   "ganho": -22
+  },
+  {
+   "t": 71.6,
+   "som": "brilho",
+   "ganho": -23
+  },
+  {
+   "t": 73.4,
+   "som": "jogo_alvo",
+   "ganho": -20
+  },
+  {
+   "t": 73.8,
+   "som": "jogo_alvo",
+   "ganho": -21
+  },
+  {
+   "t": 74.2,
+   "som": "jogo_alvo",
+   "ganho": -21
+  },
+  {
+   "t": 77.2,
+   "som": "jogo_zona",
+   "ate": 80.8,
+   "ganho": -24
+  },
+  {
+   "t": 80.9,
+   "som": "impacto",
+   "ganho": -21
+  },
+  {
+   "t": 84.8,
+   "som": "batimento",
+   "ate": 87.2,
+   "ganho": -19
+  },
+  {
+   "t": 87.3,
+   "som": "whoosh_curto",
+   "ganho": -21
+  },
+  {
+   "t": 89.0,
+   "som": "riser",
+   "ganho": -23
+  },
+  {
+   "t": 90.85,
+   "som": "jogo_blip",
+   "ganho": -20
+  },
+  {
+   "t": 94.44,
+   "som": "toc",
+   "ganho": -17
+  },
+  {
+   "t": 96.8,
+   "som": "jogo_glitch",
+   "ganho": -20
+  },
+  {
+   "t": 98.25,
+   "som": "jogo_glitch",
+   "ganho": -19
+  },
+  {
+   "t": 103.1,
+   "som": "jogo_erro",
+   "ganho": -19
+  },
+  {
+   "t": 106.3,
+   "som": "swell",
+   "ganho": -22
+  },
+  {
+   "t": 109.0,
+   "som": "jogo_menu",
+   "ganho": -20
+  },
+  {
+   "t": 111.9,
+   "som": "sino",
+   "ganho": -22
+  }
+ ]
+}

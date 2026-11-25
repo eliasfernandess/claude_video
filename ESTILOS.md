@@ -7,7 +7,7 @@ Antes de começar um vídeo, escolha o estilo. Se a pessoa não disser qual, per
 | | **Estilo 1: Conto rápido** | **Estilo 2: "E se" + física** | **Estilo 3: "E se" + jogo** |
 |---|---|---|---|
 | Inspiração | @aprendendocomvitinho1 | @rmhkaiser | @toonscartoons00 |
-| Vídeos nossos | O topo, O roteiro, Nesta cidade todo mundo é cego | Ímã humano | (nenhum ainda) |
+| Vídeos nossos | O topo, O roteiro, Nesta cidade todo mundo é cego | Ímã humano | Cidade do jogo (visual do 3 com a fala rápida do 1) |
 | Estudo | `estudo-vitinho/README.md` + `GUIA-RITMO-E-SOM.md` | `ESTUDO-RMHKAISER.md` | `ESTUDO-TOONSCARTOONS.md` |
 | Gancho | "Nesta cidade…", conto emocional | "E se você…?" + personagem com nome | "E se você acordasse dentro do jogo…?" + personagem gamer |
 | História | Fantasia com lição de vida, emoção | Superpoder com consequência física explicada | Regra de jogo contra a vida real: "No jogo… Aqui…" |
@@ -25,7 +25,7 @@ Antes de começar um vídeo, escolha o estilo. Se a pessoa não disser qual, per
 | Trilha | -24 dB, abaixa 9 na fala | -21 dB, abaixa 6 na fala | -21 dB, abaixa 6 na fala |
 | Efeitos | Poucos, ~1 a cada 6 s | Nas ações fortes, ~1 a cada 4 s, junto com "PÁ!" | Sons de jogo (nível, dano, menu, moeda) junto com o HUD |
 | Final | Fechado, emocional | Fechado + pergunta para quem assiste | Fechado + pergunta. Se virar série, cada parte tem que funcionar sozinha. |
-| Exemplo de som | `videos/o-roteiro/som.json` | `videos/ima-humano/som.json` | — |
+| Exemplo de som | `videos/o-roteiro/som.json` | `videos/ima-humano/som.json` | `videos/cidade-do-jogo/som.json` |
 
 ## Estilo 1: Conto rápido
 - Regras completas em `GUIA-RITMO-E-SOM.md`. É o padrão das instruções em `CLAUDE.md`.
@@ -40,23 +40,11 @@ Antes de começar um vídeo, escolha o estilo. Se a pessoa não disser qual, per
 - Projeto de exemplo: `videos/ima-humano/`.
 
 ## Estilo 3: "E se" + jogo
-Ainda não existe no kit. Para o primeiro vídeo, é preciso criar:
-1. **HUD de jogo** (novos tipos no `legendas.mjs`):
-   - `hud`: painel escuro com rótulo pequeno e número grande que pode contar;
-   - `tag`: nome + "Nv." + corações em cima do personagem;
-   - `vida`: barra que cai;
-   - `dano`: número flutuante, vermelho ou verde;
-   - `nivel`: "NÍVEL 2" com explosão dourada;
-   - `item`: cartão de item com raridade;
-   - `menu`: lista de opções com "INDISPONÍVEL";
-   - `timer`: cronômetro fixo.
-2. **Fonte semicondensada** (Barlow Semi Condensed, licença livre) e legenda no `"estilo": "jogo"`.
-3. **Cenários de RPG:**
-   - vila medieval ao entardecer;
-   - masmorra com tochas;
-   - porta com luz forte;
-   - céu noturno;
-   - fundo de raios para as explicações.
-4. **Roupa de aventureiro** para o Tiaguin (túnica, cintos, bolsa, botas), aproveitando o rosto de pele do Estilo 2.
-5. **Efeitos de "visão":** filtro escuro, grade neon e borda vermelha de dano, usando `tint`/`sat`/`vig` no `update`.
-6. **Sons de jogo** gerados com `ferramentas/gerar_sons.py`: nível, dano, menu, moeda.
+- Peças em `ferramentas/kit-extras/estilo-c/` (veja o `LEIA.md` de lá):
+  - legenda `"estilo": "jogo"` (Barlow);
+  - HUD: `hud`, `vida`, `dano`, `titulo`, `aviso`, `gancho`;
+  - sons de jogo: `ferramentas/sons_jogo.py`.
+- Rosto de pele e granulado vêm do Estilo 2 (`estilo-b/char.js` e `core.js`).
+- Projeto de exemplo, com cidade ao entardecer, telão, etiquetas de nível em cima da cabeça, arena low-poly, fogueiras, zona de luz e placar no céu: `videos/cidade-do-jogo/`.
+- **Variação já testada:** visual do Estilo 3 com a fala rápida do Estilo 1 (3,67 palavras/s, `--vel 1.1 --pausa 0.2`).
+- **Ainda não feito:** masmorra, cronômetro fixo, cartão de item com raridade, menu "INDISPONÍVEL" e roupa de aventureiro.
