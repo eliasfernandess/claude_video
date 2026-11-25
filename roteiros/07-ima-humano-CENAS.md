@@ -1,4 +1,4 @@
-# 07 — "E se tu virasse um ímã humano?" (versão B do teste A/B, estilo @rmhkaiser)
+# 07 — "E se você virasse um ímã humano?" (versão B do teste A/B, estilo @rmhkaiser)
 
 - **Duração:** ~1:30. São 265 palavras a ~2,9 palavras por segundo.
 - **Voz (ElevenLabs):** velocidade 1,0. Este estilo é mais calmo, então não acelere para 1,15. Estabilidade "Natural". O texto para colar está em `07-ima-humano-elevenlabs.txt`.
