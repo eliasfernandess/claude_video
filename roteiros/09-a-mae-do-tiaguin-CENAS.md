@@ -66,7 +66,7 @@ Os tempos são estimados. Depois da voz pronta, os cortes saem do `cortes_sugeri
 | 17 | 34,8 | "Na escola, me chamavam de 'a apagada'." | Pátio da escola **colorido**, todo mundo brincando com poderes. Ela **cinza**, sozinha num banco. | — |
 | 18 | 36,7 | "Pulei do muro pra ver se voava e quebrei o braço." | Ela de capa de toalha em cima do muro. Corte seco: ela de braço engessado. | pancadinha |
 | 19 | 39,7 | "Passei uma semana encarando uma colher." | Close: ela de olhos arregalados, uma colher na mesa e um calendário riscado com 7 dias. | — |
-| 20 | 41,4 | "E toda noite eu pensava: o defeito sou eu." | Quarto à noite, em azul-escuro e com vinheta forte. Ela na cama olhando o teto. | trilha fica triste |
+| 20 | 41,4 | "E toda noite eu pensava: o defeito sou eu." | Quarto à noite, em âmbar escuro (ainda no flashback) e com vinheta forte. Ela na cama olhando o teto. | trilha fica triste |
 | 21 | 43,8 | "Aí veio o dia da ventania." | Volta para o presente: céu ficando verde-acinzentado e folhas voando. Ela adulta segurando o Tiaguin **bebê**. | vento sobe |
 | 22 | 45,5 | "O Caio, filho da vizinha, fez doze anos e o poder dele veio errado." | Caio na festa, assustado, as mãos soltando um redemoinho. | — |
 | 23 | 49,3 | "Um furacão saiu de dentro dele, no meio da praça." | Plano aberto: um funil de vento enorme no meio da praça, com o Caio no centro. | vento forte |
@@ -94,8 +94,8 @@ Os tempos são estimados. Depois da voz pronta, os cortes saem do `cortes_sugeri
 | Trecho | Cor |
 |---|---|
 | Começo, festa, exemplos | Pastel claro, dia |
-| Flashback dos 12 anos | Quente e meio desbotado, como uma foto antiga |
-| "A apagada", "o defeito sou eu" | Ela cinza no meio de tudo colorido. Depois azul-escuro com vinheta. |
+| Flashback dos 12 anos (26 a 43,8 s) | **Efeito de flashback amarelado** (veja a seção abaixo) |
+| "A apagada", "o defeito sou eu" | Dentro do flashback: ela mais desbotada que todos. A noite fica âmbar escuro, não azul. |
 | Ventania | Céu verde-acinzentado, contraste alto |
 | Livro e virada | Luz quente de janela, depois pôr do sol (a cor volta para ela) |
 | Final | Noite azul, mas com a cozinha e a lâmpada quentes |
@@ -168,3 +168,29 @@ Regra geral para todas as cenas:
 | 39 | corte seco | a lâmpada pisca a cada risada |
 | 40 | zoom-in lento (o mais lento do vídeo) | a fitinha do Bonfim brilha |
 | 41 | freio no relógio 23:59 | o ponteiro anda → **corte seco para preto no último quadro** |
+
+## Efeito de flashback (infância, cenas 12 a 20, de ~26 s a ~43,8 s)
+
+A pessoa pediu: na parte da infância, tons amarelados, cara de lembrança.
+
+- **Entrada**, em "Eu fiz doze anos numa terça":
+  1. a câmera dá um zoom rápido no rosto da mãe adulta;
+  2. a imagem ondula e borra;
+  3. um clarão quente (branco-amarelado) de 0,3 s;
+  4. abre já no passado.
+- **Visual durante todo o trecho:**
+  - **tom amarelado e sépia**: cores puxadas para mel e creme, com menos saturação e contraste;
+  - **vinheta oval de bordas borradas**, como um sonho ou uma foto antiga;
+  - **granulado de filme** em movimento, poeirinhas e riscos finos aparecendo de vez em quando;
+  - **leve tremida de luz**, com o brilho subindo e descendo ~2%, como um projetor antigo.
+- **Dentro do flashback:**
+  - a mãe menina, de trancinhas, fica **mais desbotada** que os outros ("a apagada");
+  - a cena da noite ("o defeito sou eu") fica âmbar escuro, sem sair do flashback.
+- **Saída**, em "Aí veio o dia da ventania":
+  1. clarão quente;
+  2. as cores voltam de uma vez;
+  3. corte para o presente, já com o céu da ventania.
+- **Legendas e som:**
+  - a legenda continua normal, por cima do efeito;
+  - no som, a trilha fica abafada (corta os agudos) durante o flashback e volta cheia na saída.
+
