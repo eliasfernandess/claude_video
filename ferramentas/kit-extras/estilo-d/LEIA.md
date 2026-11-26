@@ -1,0 +1,22 @@
+# Estilo 4: peças 2D "recorte flat" (visual do Vitinho)
+
+- `pecas2d.js`:
+  - `pessoa({...})`: personagem com cabeça grande, olhão com 2 brilhos, braço de pílula e contorno fino;
+    - cabelos: `rabo`, `espetado`, `topete`, `curto`, `coque`, `careca` e `longo`;
+    - `fita: true` é a fitinha do Bonfim;
+    - ids animáveis: `-bracoD`/`-bracoE` (attr `rotate()`), `-olhos .olhoEsc` (piscar), `.pupila`, `-sobr` e `-boca` (`sorriso`, `aberta`, `o`, `meio`).
+  - Cenário: `casa`, `arvore`, `nuvem`, `raios`, `fogo` e `brilho`.
+- **Câmera:** cada cena é um `<svg>` com um `<g class="cam">`. A câmera é `{x, y, z = ln(escala), r, dx}`, animada pelo GSAP:
+  - chegada com freio: `expo.out`, 0,23 a 0,28 s;
+  - voo para trás: `power2.out`, 0,5 s;
+  - grua: `power3.inOut`, 0,5 s.
+- **Transformações no SVG:** use `attr: {transform: '...'}`. O `scale`/`rotation` do GSAP em grupo SVG desloca o objeto.
+- `render.js`:
+  - grava a 30 qps;
+  - cada quadro é a média de **16 instantes**, o que dá o borrão de movimento real do Vitinho;
+  - o borrão não atravessa os cortes (`window.CORTES`);
+  - leva ~1 min por segundo de vídeo;
+  - uso: `node render.js saida.mp4 [t0] [t1]`, na pasta do `index.html`.
+- **Fonte da legenda:** Fredoka 700 (karaokê: a palavra-chave acende em amarelo quando é falada).
+- **GSAP:** copie de `Kit-E-se-Animado/.gsap/gsap.min.js` para a pasta do projeto.
+- **Exemplo:** `videos/mae-do-tiaguin/teste-abertura/`, com os 12,9 s de abertura do roteiro 09.
