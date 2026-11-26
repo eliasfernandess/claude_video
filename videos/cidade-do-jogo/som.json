@@ -4,22 +4,11 @@
  "saida_audio": "render/mix.wav",
  "trilha": [
   {
-   "som": "esperanca",
+   "som": "temporex_dark",
    "de": 0,
-   "ate": 21.6,
-   "ganho": -21
-  },
-  {
-   "som": "tensao_misterio",
-   "de": 21.2,
-   "ate": 94.7,
-   "ganho": -21
-  },
-  {
-   "som": "esperanca",
-   "de": 94.4,
    "ate": 112.52,
-   "ganho": -21
+   "ganho": -14.5,
+   "fade": 0.5
   }
  ],
  "abaixar_trilha_na_fala": 6,
