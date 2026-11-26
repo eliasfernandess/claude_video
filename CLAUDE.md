@@ -1,9 +1,10 @@
 # Instruções para os vídeos deste repositório
 
-Este repositório produz vídeos verticais narrados (estilo "E se…") com o Kit "E se animado". **Há 3 estilos**, descritos em `ESTILOS.md`:
+Este repositório produz vídeos verticais narrados (estilo "E se…") com o Kit "E se animado". **Há 4 estilos**, descritos em `ESTILOS.md`:
 - Estilo 1: conto rápido, tipo Vitinho;
 - Estilo 2: "E se" + física, tipo @rmhkaiser;
-- Estilo 3: "E se" + jogo, tipo @toonscartoons00.
+- Estilo 3: "E se" + jogo, tipo @toonscartoons00;
+- Estilo 4: Vitinho completo (fala, visual 2D e movimento dele; estudo em `estudo-vitinho/DINAMISMO.md`).
 
 Pergunte qual estilo usar se a pessoa não disser. Ritmo, legenda, visual e som mudam de um estilo para outro: siga a tabela do `ESTILOS.md`.
 
