@@ -30,6 +30,8 @@ function pessoa(o) {
          `<path d="M ${62 * u} ${hy - 30 * u} C ${82 * u} ${hy - 4 * u}, ${88 * u} ${hy + 24 * u}, ${82 * u} ${hy + 50 * u}" fill="none" stroke="${escurece(cab, .8)}" stroke-width="${4 * u}" stroke-linecap="round"/>` +
          `${circ(44 * u, hy - 40 * u, 9 * u, '#E8505B')}</g>`;
   }
+  if (o.capa) s += `<path d="M ${-40 * u} ${-196 * u} Q ${-70 * u} ${-90 * u} ${-62 * u} ${-40 * u} L ${62 * u} ${-40 * u} Q ${70 * u} ${-90 * u} ${40 * u} ${-196 * u} Z" fill="${o.capa}" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round"/>`;
+  if (o.cabelo === 'trancas') for (const l of [-1, 1]) s += `<g>${pilula(l * 62 * u, hy - 4 * u, l * 84 * u, hy + 70 * u, 20 * u, cab)}${circ(l * 86 * u, hy + 76 * u, 8 * u, '#E8505B')}<path d="M ${l * 66 * u} ${hy + 14 * u} l ${l * 14 * u} ${6 * u} M ${l * 72 * u} ${hy + 36 * u} l ${l * 14 * u} ${6 * u}" stroke="${escurece(cab, .75)}" stroke-width="${3 * u}"/></g>`;
   if (o.cabelo === 'longo') s += `<path d="M ${-r - 6 * u} ${hy - 10 * u} C ${-r - 14 * u} ${hy + 70 * u}, ${-r} ${hy + 120 * u}, ${-r + 18 * u} ${hy + 120 * u} L ${r - 18 * u} ${hy + 120 * u} C ${r} ${hy + 120 * u}, ${r + 14 * u} ${hy + 70 * u}, ${r + 6 * u} ${hy - 10 * u} Z" fill="${cab}" stroke="${OUT}" stroke-width="${OW}"/>`;
   // pernas
   const pl = o.saia ? pele : cal;
@@ -37,7 +39,7 @@ function pessoa(o) {
        `${elip(-24 * u, -10 * u, 21 * u, 12 * u, sap)}${elip(24 * u, -10 * u, 21 * u, 12 * u, sap)}</g>`;
   // braços (grupos girando no ombro)
   const braco = (lado) => {
-    const sx = lado * 41 * u, sy = -184 * u, rot = lado * -14;
+    const sx = lado * (o.magro ? 32 : o.gordo ? 52 : 41) * u, sy = -184 * u, rot = (lado < 0 ? o.bE : o.bD) ?? lado * -14;
     let b = `<g transform="translate(${sx} ${sy})"><g id="${id}-braco${lado < 0 ? 'E' : 'D'}" transform="rotate(${rot})">`;
     b += pilula(0, 0, 0, 74 * u, 22 * u, pele) + pilula(0, 0, 0, 30 * u, 23 * u, cam);
     b += circ(0, 80 * u, 12.5 * u, pele);
@@ -47,11 +49,20 @@ function pessoa(o) {
   s += braco(-1);
   // tronco
   if (o.saia) s += `<path d="M ${-40 * u} ${-120 * u} L ${-54 * u} ${-70 * u} Q 0 ${-58 * u} ${54 * u} ${-70 * u} L ${40 * u} ${-120 * u} Z" fill="${cal}" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round"/>`;
-  s += `<rect x="${-45 * u}" y="${-202 * u}" width="${90 * u}" height="${108 * u}" rx="${30 * u}" fill="${cam}" stroke="${OUT}" stroke-width="${OW}"/>`;
+  const tw = o.magro ? 70 : o.gordo ? 112 : 90;
+  s += `<rect x="${-tw / 2 * u}" y="${-202 * u}" width="${tw * u}" height="${108 * u}" rx="${30 * u}" fill="${cam}" stroke="${OUT}" stroke-width="${OW}"/>`;
+  if (o.avental) s += `<path d="M ${-30 * u} ${-170 * u} L ${30 * u} ${-170 * u} L ${34 * u} ${-96 * u} L ${-34 * u} ${-96 * u} Z" fill="#fff" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round"/>`;
+  if (o.xale) s += `<path d="M ${-50 * u} ${-196 * u} Q 0 ${-120 * u} ${50 * u} ${-196 * u} L ${44 * u} ${-160 * u} Q 0 ${-100 * u} ${-44 * u} ${-160 * u} Z" fill="${o.xale}" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round"/>`;
   s += `<path d="M ${10 * u} ${-198 * u} h ${22 * u} a ${26 * u} ${26 * u} 0 0 1 ${10 * u} ${20 * u} v ${60 * u} a ${26 * u} ${26 * u} 0 0 1 ${-12 * u} ${20 * u} h ${-20 * u} Z" fill="#000" opacity=".08"/>`;
   s += braco(1);
   // cabeça
   s += `<g id="${id}-cabeca">`;
+  if (o.costas) {
+    s += circ(-r + 2 * u, hy + 8 * u, 13 * u, pele) + circ(r - 2 * u, hy + 8 * u, 13 * u, pele) + circ(0, hy, r, cab);
+    if (o.cabelo === 'coque') s += circ(0, hy - 20 * u, 26 * u, escurece(cab, .9));
+    if (o.olhosNuca) s += `<g id="${id}-nuca">` + [-22, 22].map(x => `<g transform="translate(${x * u} ${hy + 18 * u})">${elip(0, 0, 15 * u, 17 * u, '#fff')}<circle r="${9 * u}" fill="#3D6FD1"/><circle r="${5 * u}" fill="#16182a"/><circle cx="${3 * u}" cy="${-4 * u}" r="${3 * u}" fill="#fff"/></g>`).join('') + `</g>`;
+    return s + `</g></g></g>`;
+  }
   s += circ(-r + 2 * u, hy + 8 * u, 13 * u, pele) + circ(r - 2 * u, hy + 8 * u, 13 * u, pele);
   s += circ(0, hy, r, pele);
   s += `<path d="M ${r * .35} ${hy - r * .82} A ${r} ${r} 0 0 1 ${r * .98} ${hy + r * .2} A ${r * 1.05} ${r * 1.05} 0 0 0 ${r * .35} ${hy - r * .82}" fill="#000" opacity=".06"/>`;
@@ -75,10 +86,18 @@ function pessoa(o) {
     `<path class="b-sorriso" d="M ${-15 * u} ${my} Q 0 ${my + 13 * u} ${15 * u} ${my}" stroke="${OUT}" stroke-width="${4 * u}" fill="none" stroke-linecap="round"/>` +
     `<g class="b-aberta" visibility="hidden"><path d="M ${-17 * u} ${my - 2 * u} Q 0 ${my + 30 * u} ${17 * u} ${my - 2 * u} Z" fill="#B83A3A" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round"/><ellipse cx="0" cy="${my + 12 * u}" rx="${8 * u}" ry="${5 * u}" fill="#F28A8A"/><path d="M ${-13 * u} ${my} L ${13 * u} ${my}" stroke="#fff" stroke-width="${4 * u}"/></g>` +
     `<g class="b-o" visibility="hidden">${elip(0, my + 6 * u, 9 * u, 11 * u, '#B83A3A')}</g>` +
+    `<path class="b-triste" visibility="hidden" d="M ${-13 * u} ${my + 8 * u} Q 0 ${my - 4 * u} ${13 * u} ${my + 8 * u}" stroke="${OUT}" stroke-width="${4 * u}" fill="none" stroke-linecap="round"/>` +
     `<path class="b-meio" visibility="hidden" d="M ${-12 * u} ${my + 4 * u} Q ${4 * u} ${my + 10 * u} ${16 * u} ${my - 2 * u}" stroke="${OUT}" stroke-width="${4 * u}" fill="none" stroke-linecap="round"/>` +
     `</g>`;
+  s += `<path id="${id}-lagrima" visibility="hidden" d="M ${-30 * u} ${hy + 22 * u} q ${-6 * u} ${12 * u} 0 ${16 * u} q ${6 * u} ${-4 * u} 0 ${-16 * u} Z" fill="#7EC8F0" stroke="${OUT}" stroke-width="${1.6 * u}"/>`;
+  if (o.oculos) s += `<g fill="none" stroke="${OUT}" stroke-width="${4 * u}"><circle cx="${-25 * u}" cy="${hy + 4 * u}" r="${24 * u}"/><circle cx="${25 * u}" cy="${hy + 4 * u}" r="${24 * u}"/><line x1="${-2 * u}" y1="${hy + 2 * u}" x2="${2 * u}" y2="${hy + 2 * u}"/></g>`;
+  if (o.bigode) s += `<path d="M ${-24 * u} ${hy + 36 * u} Q ${-12 * u} ${hy + 22 * u} 0 ${hy + 30 * u} Q ${12 * u} ${hy + 22 * u} ${24 * u} ${hy + 36 * u} Q ${12 * u} ${hy + 32 * u} 0 ${hy + 34 * u} Q ${-12 * u} ${hy + 32 * u} ${-24 * u} ${hy + 36 * u} Z" fill="${o.bigode}" stroke="${OUT}" stroke-width="${2.5 * u}"/>`;
   // cabelo da frente
   const top = hy - r;
+  if (o.cabelo === 'trancas') {
+    s += `<path d="M ${-r - 3 * u} ${hy + 6 * u} C ${-r - 8 * u} ${top - 26 * u}, ${r + 8 * u} ${top - 26 * u}, ${r + 3 * u} ${hy + 6 * u} C ${r - 8 * u} ${hy - 26 * u}, ${30 * u} ${hy - 40 * u}, 0 ${hy - 36 * u} C ${-30 * u} ${hy - 40 * u}, ${-r + 8 * u} ${hy - 26 * u}, ${-r - 3 * u} ${hy + 6 * u} Z" fill="${cab}" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round"/>`;
+    s += `<line x1="0" y1="${top}" x2="0" y2="${hy - 36 * u}" stroke="${escurece(cab, .75)}" stroke-width="${3 * u}"/>`;
+  }
   if (o.cabelo === 'rabo' || o.cabelo === 'curto' || o.cabelo === 'coque' || o.cabelo === 'longo') {
     s += `<path d="M ${-r - 3 * u} ${hy + 6 * u} C ${-r - 8 * u} ${top - 26 * u}, ${r + 8 * u} ${top - 26 * u}, ${r + 3 * u} ${hy + 6 * u} C ${r - 8 * u} ${hy - 30 * u}, ${r - 20 * u} ${hy - 44 * u}, ${10 * u} ${hy - 46 * u} C ${-20 * u} ${hy - 44 * u}, ${-50 * u} ${hy - 30 * u}, ${-r - 3 * u} ${hy + 6 * u} Z" fill="${cab}" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round"/>`;
     s += `<path d="M ${-30 * u} ${top + 6 * u} C ${-10 * u} ${top - 2 * u}, ${20 * u} ${top}, ${40 * u} ${top + 14 * u}" stroke="#fff" opacity=".35" stroke-width="${5 * u}" fill="none" stroke-linecap="round"/>`;
@@ -90,8 +109,15 @@ function pessoa(o) {
     s += `<path d="${zz} Z" fill="${cab}"/><path d="${zz}" fill="none" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round" stroke-linecap="round"/>`;
     if (o.cabelo === 'topete') s += `<path d="M ${-20 * u} ${hy - 34 * u} C ${-30 * u} ${hy - 70 * u}, ${30 * u} ${hy - 80 * u}, ${44 * u} ${hy - 52 * u} C ${20 * u} ${hy - 60 * u}, ${0} ${hy - 50 * u}, ${-20 * u} ${hy - 34 * u} Z" fill="${cab}" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round"/>`;
   }
+  if (o.chapeu === 'chef') s += `<g>${circ(-26 * u, top - 22 * u, 28 * u, '#fff')}${circ(26 * u, top - 22 * u, 28 * u, '#fff')}${circ(0, top - 40 * u, 32 * u, '#fff')}<rect x="${-46 * u}" y="${top - 12 * u}" width="${92 * u}" height="${28 * u}" rx="${8 * u}" fill="#fff" stroke="${OUT}" stroke-width="${OW}"/></g>`;
+  if (o.chapeu === 'capacete') s += `<g><path d="M ${-r - 6 * u} ${hy - 18 * u} C ${-r} ${top - 30 * u}, ${r} ${top - 30 * u}, ${r + 6 * u} ${hy - 18 * u} Z" fill="#FFD23F" stroke="${OUT}" stroke-width="${OW}"/><rect x="${-r - 16 * u}" y="${hy - 24 * u}" width="${2 * r + 32 * u}" height="${14 * u}" rx="${7 * u}" fill="#F5B82E" stroke="${OUT}" stroke-width="${OW}"/><line x1="0" y1="${top - 16 * u}" x2="0" y2="${hy - 26 * u}" stroke="#F5B82E" stroke-width="${10 * u}"/></g>`;
+  if (o.chapeu === 'festa') s += `<path d="M ${-30 * u} ${top + 8 * u} L ${6 * u} ${top - 78 * u} L ${34 * u} ${top + 6 * u} Z" fill="#F7A8B8" stroke="${OUT}" stroke-width="${OW}" stroke-linejoin="round"/>${circ(6 * u, top - 80 * u, 9 * u, '#FFD23F')}`;
   s += `</g></g></g>`;
   return s;
+}
+// bebê de colo (embrulhadinho)
+function bebe(id, x, y, k = 1, cab = '#F4CF5B') {
+  return `<g id="${id}" transform="translate(${x} ${y}) scale(${k})">${elip(0, 30, 56, 40, '#A9D3F5')}${circ(-8, -20, 38, PELES.clara)}<path d="M -30 -46 Q -8 -74 18 -50 Q 0 -60 -30 -46 Z" fill="${cab}" stroke="${OUT}" stroke-width="2.5"/><circle cx="-20" cy="-20" r="5" fill="#16182a"/><circle cx="4" cy="-20" r="5" fill="#16182a"/><path d="M -14 -4 q 6 6 12 0" stroke="${OUT}" stroke-width="3" fill="none" stroke-linecap="round"/><ellipse cx="-30" cy="-8" rx="7" ry="4" fill="#FF8A8A" opacity=".5"/><ellipse cx="14" cy="-8" rx="7" ry="4" fill="#FF8A8A" opacity=".5"/></g>`;
 }
 
 // ---------- cenário ----------

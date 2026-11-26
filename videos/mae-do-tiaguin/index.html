@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Fredoka;font-weight:600;src:url(fredoka-latin-600-normal.woff2)}
+@font-face{font-family:Fredoka;font-weight:700;src:url(fredoka-latin-700-normal.woff2)}
+html,body{margin:0;background:#000}
+#palco{position:relative;width:1080px;height:1920px;overflow:hidden}
+#cenas{position:absolute;inset:0;z-index:0}
+.cena{position:absolute;inset:0;width:1080px;height:1920px;visibility:hidden}
+.ov{position:absolute;inset:0;pointer-events:none;display:none}
+#fbAmarelo{background:#F2B84A;mix-blend-mode:multiply;opacity:.3}
+#fbBorda{backdrop-filter:blur(7px);-webkit-mask-image:radial-gradient(ellipse 62% 52% at 50% 46%,transparent 62%,#000 100%);mask-image:radial-gradient(ellipse 62% 52% at 50% 46%,transparent 62%,#000 100%)}
+#fbVinheta{background:radial-gradient(ellipse 70% 58% at 50% 46%,rgba(0,0,0,0) 55%,rgba(70,40,10,.55) 100%)}
+#grao{background-size:1080px 1920px;mix-blend-mode:overlay;opacity:.55}
+#flash{display:block;background:radial-gradient(circle at 50% 45%,#FFF7DC,#FFE2A0);opacity:0}
+#vinheta{display:block;background:radial-gradient(ellipse 75% 60% at 50% 48%,rgba(0,0,0,0) 55%,rgba(20,20,40,.26) 100%)}
+#preto{display:block;background:#000;opacity:0}
+#legenda{position:absolute;left:0;right:0;top:1395px;text-align:center}
+.bloco{display:none;font-family:Fredoka;font-weight:700;font-size:68px;line-height:1;color:#fff;letter-spacing:.5px;-webkit-text-stroke:12px #2a2d3e;paint-order:stroke fill;text-shadow:0 6px 0 rgba(42,45,62,.55)}
+.pal.chave.ativa{color:#FFD23F}
+</style></head><body>
+<div id="palco"><div id="cenas"></div>
+<div id="fbAmarelo" class="ov"></div><div id="fbBorda" class="ov"></div><div id="fbVinheta" class="ov"></div><div id="grao" class="ov"></div>
+<svg id="poeira" class="ov" viewBox="0 0 1080 1920" width="1080" height="1920"></svg>
+<div id="vinheta" class="ov"></div><div id="flash" class="ov"></div><div id="legenda"></div><div id="preto" class="ov"></div></div>
+<script src="gsap.min.js"></script><script src="pecas2d.js"></script><script src="palavras.js"></script><script src="motor.js"></script><script src="mundos.js"></script><script src="planos.js"></script>
+</body></html>
