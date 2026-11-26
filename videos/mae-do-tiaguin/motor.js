@@ -11,8 +11,19 @@ function T(palavra, depois = 0) {
 }
 const Z = Math.log;
 const TL = gsap.timeline({ paused: true });
+// Os planos foram escritos com o tempo antigo das palavras. velhoParaReal() leva cada momento para o tempo real
+// (alinhamento do Whisper), interpolando entre as palavras; durações e velocidades das animações não mudam.
+const ANC = (() => { const A = TRANSCRICAO_ANTIGA.map(x => x[1]), R = TRANSCRICAO.map(x => x[1]), o = [[0, 0]];
+  A.forEach((a, i) => { if (a > o[o.length - 1][0] + 1e-3 && R[i] >= o[o.length - 1][1]) o.push([a, R[i]]); }); return o; })();
+function velhoParaReal(t) {
+  if (t <= 0) return t;
+  for (let i = 1; i < ANC.length; i++) if (t <= ANC[i][0]) { const [a0, r0] = ANC[i - 1], [a1, r1] = ANC[i]; return r0 + (r1 - r0) * (t - a0) / (a1 - a0); }
+  const [a, r] = ANC[ANC.length - 1]; return r + (t - a);
+}
+let MAPEIA = true;
+for (const m of ['to', 'from', 'fromTo', 'set']) { const orig = TL[m].bind(TL); TL[m] = (...args) => { const k = args.length - 1; if (MAPEIA && typeof args[k] === 'number') args[k] = velhoParaReal(args[k]); return orig(...args); }; }
 const RAPIDO = [];               // janelas com movimento rápido (16 subquadros)
-const rapido = (a, b) => RAPIDO.push([a, b]);
+const rapido = (a, b) => RAPIDO.push(MAPEIA ? [velhoParaReal(a), velhoParaReal(b)] : [a, b]);
 const CORTES = [0];
 
 // ---------- cenas ----------
@@ -36,6 +47,9 @@ function aplicaCams() {
 const PLANOS = [];
 function plano(t, cenaId, cam, entra = 'corte', o = {}) { PLANOS.push({ t, cena: cenaId, cam, entra, o }); }
 function compila() {
+  for (const p of PLANOS) p.t = velhoParaReal(p.t);
+  if (FB) FB = FB.map(velhoParaReal);
+  MAPEIA = false;
   PLANOS.sort((a, b) => a.t - b.t);
   let fim = null;
   PLANOS.forEach((p, i) => {

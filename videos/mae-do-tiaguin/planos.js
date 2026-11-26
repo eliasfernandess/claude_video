@@ -190,7 +190,7 @@ function monta() {
   TL.to('#qtBrilho', { opacity: .9, duration: .35, yoyo: true, repeat: 3, ease: 'sine.inOut' }, 99.6);
   plano(100.2, 'relNoite', { x: 540, y: 1050, s: .95 }, 'freio', { k: 1.8, deriva: .07 });
   TL.fromTo('#rnRS', { attr: { transform: 'rotate(300 540 880)' } }, { attr: { transform: 'rotate(360 540 880)' }, duration: DUR - 100.25, ease: 'steps(10)', immediateRender: false }, 100.25);
-  TL.set({}, {}, DUR);
   compila();
+  TL.set({}, {}, DUR);
 }
 document.fonts.load('700 60px Fredoka').then(() => { monta(); window.pronto = true; renderAt(0); });
