@@ -56,6 +56,7 @@ Antes de começar um vídeo, escolha o estilo. Se a pessoa não disser qual, per
   - close e plano aberto são o mesmo desenho, com a câmera voando;
   - as trocas são corte seco na palavra, chicote com borrão (2 a 3 quadros), fusão casada (0,33 s) e pop-in girando;
   - pose e expressão são trocadas na palavra.
+- **Abertura:** close extremo do rosto com a piada da regra (0 a 0,55 s), depois voo para trás de 3x em 0,45 s até a cidade inteira, depois um passeio grande de câmera por frase até ~8 s. A câmera anda 3 a 4x mais rápido que no resto.
 - Roteiro de exemplo: `roteiros/09-a-mae-do-tiaguin-*`.
 - **Ainda não feito:** peças 2D (Tiaguin, mãe e cenários em SVG), câmera 2D com GSAP e legenda karaokê.
 

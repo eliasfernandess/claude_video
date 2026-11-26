@@ -46,8 +46,9 @@ Os tempos são estimados. Depois da voz pronta, os cortes saem do `cortes_sugeri
 
 | # | Tempo | Fala (começo) | Imagem | Texto na cena / som |
 |---|---|---|---|---|
-| 1 | 0,0 | "Nessa cidade, todo mundo nasce com um superpoder." | Praça ensolarada em pastel. Gente com faíscas coloridas nas mãos, alguém flutuando ao fundo. | trilha começa |
-| 2 | 2,2 | "Mas ele só aparece na meia-noite…" | Close num relógio de parede chegando em 23:59. Um bolo com vela "12" embaixo. | relógio **23:59** · tique-taque |
+| 1a | 0,0 | "Nessa cidade," | **Close extremo do rosto da mãe**, que ocupa a tela toda. Uma bola de fogo e um menino voando passam raspando pela cabeça dela, e o cabelo dela **nem se mexe**: ela só pisca. É a pista escondida da "âncora". | whoosh + fogo (curtos) · trilha começa |
+| 1b | 0,55 | "…todo mundo nasce com um superpoder." | **Voo para trás** até a praça inteira: gente voando, mão pegando fogo, um homem levantando um carro. Ela no meio. | — |
+| 2 | 2,2 | "Mas ele só aparece na meia-noite…" | A câmera **sobe** pela torre da praça até o relógio em 23:59. Em "doze anos", a vela "12" nasce girando sobre os raios. | relógio **23:59** · tique-taque |
 | 3 | 5,5 | "Oi, eu sou a mãe do Tiaguin." | Cozinha clara. A mãe acena sorrindo para a câmera e o Tiaguin come cereal ao fundo. | — |
 | 4 | 7,4 | "E eu sou a única pessoa dessa cidade que nunca teve poder" | Rua cheia de gente com auras coloridas. **Só ela, no meio, sem cor.** | — |
 | 5 | 11,0 | "Pelo menos era o que eu achava." | Close no rosto dela, meio sorriso, olhando de lado. | plim misterioso |
@@ -109,6 +110,17 @@ Os tempos são estimados. Depois da voz pronta, os cortes saem do `cortes_sugeri
 - **Efeitos (poucos, ~1 a cada 6 s):** tique-taque, plim, whoosh, splash, vento, batimento, papel rasgando e zumbido de lâmpada.
 - **Mix:** -14 LUFS.
 
+## Abertura (os primeiros 12 s seguem a fórmula do Vitinho, veja `DINAMISMO.md`)
+
+1. **0 a 0,55 s:** close extremo do rosto dela com uma piada da regra acontecendo em volta.
+2. **0,55 a 1 s:** voo para trás com borrão até a praça.
+3. **2,2 s:** grua subindo até o relógio.
+4. **5,5 s:** chicote para a cozinha.
+5. **7,4 s:** voo para trás de novo, até a rua colorida com ela cinza.
+6. **11 s:** zoom rápido de volta ao rosto.
+
+Nos primeiros 12 s a câmera **nunca para** e anda 3 a 4 vezes mais rápido que no resto do vídeo.
+
 ## Movimento e transições (veja `estudo-vitinho/DINAMISMO.md`)
 
 Regra geral para todas as cenas:
@@ -118,8 +130,9 @@ Regra geral para todas as cenas:
 
 | # | Entra com | Batidas dentro do plano |
 |---|---|---|
-| 1 | começa já em zoom-out rápido da praça (do céu para baixo) | faíscas nas mãos pipocam, uma a uma |
-| 2 | **corte seco**, freio no relógio | ponteiro tique a tique; o bolo "pula" na tela |
+| 1a | **câmera parada** no rosto (0 a 0,55 s); o movimento é a piada passando em volta dela | a bola de fogo passa, o menino voa por trás, ela pisca |
+| 1b | **voo para trás de 3x em 0,45 s**: começa com borrão e vai freando | pan lateral lento sobre a praça; os poderes pipocam um a um |
+| 2 | **grua subindo rápido** pela torre (0,3 s, expo.out) até o relógio; depois **pop-in girando** da vela "12" | ponteiro tique a tique |
 | 3 | **chicote →** | a mãe acena (troca de pose na palavra "Oi"); o Tiaguin mastiga |
 | 4 | corte seco, zoom-out de 2,5x | as auras acendem em volta, e ela continua cinza |
 | 5 | **mesmo desenho**: a câmera voa até o rosto dela (0,25 s) | sobrancelha sobe em "achava" |

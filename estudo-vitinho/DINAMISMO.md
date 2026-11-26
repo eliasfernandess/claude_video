@@ -28,6 +28,80 @@ A ferramenta é `ferramentas/analisar_transicoes.py <video.mp4>`. A imagem de re
 
 Ou seja: **desenho novo a cada 2 a 3 s, e dentro de cada desenho mais 2 ou 3 "batidas" de ~0,8 s.**
 
+## A abertura (os primeiros segundos)
+
+Para isso foram medidos **12 vídeos virais** (os 3 acima e mais 9 do top):
+- "Todo mundo flutua";
+- "O espelho";
+- "As poças";
+- "Cavar";
+- "Desejar";
+- "A placa";
+- "Ninguém pisou no chão", partes 1 e 2;
+- "Ninguém mente".
+
+A ferramenta é `ferramentas/analisar_abertura.py`. As imagens de referência são:
+- `frames/aberturas-12-videos-6s.jpg`: os primeiros 6 s de cada vídeo, a 4 quadros por segundo;
+- `frames/aberturas-primeiro-segundo.jpg`: o primeiro 1,2 s, a 15 quadros por segundo.
+
+### Câmera na abertura (0 a 8 s) × no resto do vídeo (mediana dos 12)
+
+| Medida | Abertura | Resto | Quanto mais |
+|---|---|---|---|
+| Quadros com a câmera andando | **91%** | 64% | 1,4x |
+| Velocidade típica de zoom | 4,4% por segundo | 1,6% por segundo | 2,7x |
+| Zoom nos movimentos fortes (p90) | **80% por segundo** | 22% por segundo | **3,7x** |
+| Velocidade típica de pan | 9,9% da tela por segundo | 2,2% por segundo | **4,5x** |
+| Pan nos movimentos fortes (p90) | 139% da tela por segundo | 50% por segundo | 2,8x |
+
+**A abertura é a parte mais agitada do vídeo inteiro.** Depois de ~8 s o ritmo de câmera cai para o "normal" (deriva + chegada com freio).
+
+### A fórmula do 1º segundo (11 de 12 vídeos)
+
+```
+0,00 – 0,55 s  CLOSE EXTREMO DO ROSTO + PIADA DA REGRA
+               O rosto de quem narra enche a tela, com a legenda "Nesta cidade,".
+               A câmera fica PARADA. Quem se mexe é a piada, que mostra a regra
+               no próprio rosto:
+                 · o zíper fechando a boca ("ninguém mente");
+                 · as letras da placa embaralhando ("a placa");
+                 · o nariz crescendo e a tesoura ("trocas");
+                 · o chapéu de festa e o susto ("espelho");
+                 · o guarda-chuva ("poças").
+0,55 – 1,05 s  VOO PARA TRÁS (zoom-out) ATÉ O PLANO ABERTO
+               Medido quadro a quadro em 6 vídeos: escala por quadro de
+               0,86 → 0,85 → 0,85 → 0,86 → 0,87 → 0,89 → 0,91 → 0,93 → 0,95 → 0,97 → 0,99 → 1,00
+               Ou seja: ~3x de zoom-out em ~0,45 s.
+                 · Começa com o MÁXIMO de velocidade, com borrão forte nos 2 a 3 primeiros quadros.
+                 · Depois vai freando (sine.out / quad.out).
+               No "Corredor" o voo é ainda maior: atravessa o corredor inteiro.
+               O plano aberto mostra a cidade inteira com a regra, e quem narra
+               continua no meio da multidão.
+1,05 – ~2 s    plano aberto com pan lateral lento, multidão animada
+```
+
+### Do 2º ao 8º segundo: um "passeio de câmera" por frase
+
+Cada frase da abertura ganha um movimento grande e diferente:
+
+| Vídeo | Movimento depois do voo inicial |
+|---|---|
+| Ninguém pisou no chão | **2º voo para trás, ainda maior**: a cidade pendurada em cordas era um navio |
+| As poças | **mergulho na poça**: a câmera gira 180° e cai na cidade de cabeça para baixo |
+| Cavar | **grua descendo** pelas camadas de terra |
+| O espelho | zoom-in no espelho, o reflexo gira e se transforma |
+| Cidade das trocas | **pop-in girando** dos catálogos sobre os raios, chicote, lupa, voo até a praça |
+| O corredor | **travelling** pelo corredor que estica, voo para fora da casa e chicote de volta |
+| Ninguém mente | zoom-in no menino, close no dentista, piscada preta, close da boca |
+| Desejar | o mais calmo: um pan lateral longo pelo banco (o 1º corte só aos 7,8 s) |
+
+Regras que se repetem:
+1. **A 1ª imagem já é o personagem reagindo à regra.** Nada de paisagem vazia nem título.
+2. **A regra é mostrada antes de ser explicada.** A piada no rosto acontece enquanto a voz ainda diz "Nesta cidade,".
+3. **O voo para trás revela a escala:** não é só ele, é a cidade inteira.
+4. **Mais um "passeio" grande até os ~5 s** (2º voo, mergulho, grua, travelling), que leva para dentro do mundo.
+5. **Só depois de ~8 s** o vídeo entra no ritmo normal de chegada com freio + deriva.
+
 ## Os 7 movimentos que ele usa
 
 ### 1. A "chegada com freio" (a assinatura do perfil)
@@ -98,6 +172,7 @@ escala: 0,71  0,70  0,74  0,81  0,88  0,95  0,99  1,00 1,00
 | Close ↔ aberto | mesmo desenho, câmera voando 0,25 s, **sem corte** |
 | Troca entre desenhos | ~65% corte seco, ~20% chicote (2 a 3 quadros, borrão de 40 px, alternando a direção), ~10% fusão casada (0,33 s), ~5% pop-in em raios |
 | Personagem | pose e expressão trocadas na palavra, piscada a cada 2 a 4 s, "respirar" leve, detalhes animados |
+| **Abertura (0 a 8 s)** | close extremo + piada da regra (0 a 0,55 s) → **voo para trás de 3x em 0,45 s** → um passeio grande de câmera por frase (grua, mergulho, 2º voo). Câmera 3 a 4x mais rápida que no resto. |
 | Nunca | plano parado, fusão lenta (> 0,4 s), transição "de PowerPoint" (cubo, página virando) |
 
 **Como fazer no kit:** é 2D em SVG dentro do HTML do hyperframes, com a câmera sendo um `<g>` animado pelo GSAP (`scale`/`x`/`y`, `expo.out`).
