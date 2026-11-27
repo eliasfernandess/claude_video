@@ -1,19 +1,29 @@
-[excited] Nessa cidade, todo mundo ganha um superpoder à meia-noite do aniversário de doze anos. Eu sou o Tiaguin. Ontem foi o meu.
+[excited] Nessa cidade, todo mundo ganha um superpoder à meia-noite dos doze anos. E hoje… é a minha vez.
 
-[cheerful] A rua inteira veio pra porta lá de casa. O padeiro trouxe pão quentinho, esquentado na mão. O vizinho que voa dez centímetros ficou flutuando do lado do bolo, todo importante. E a minha mãe… ficou de capacete. Por via das dúvidas.
+[cheerful] Eu sou o Tiaguin. Faltam dez segundos. A rua inteira tá aqui. O padeiro. A professora. O vizinho que voa dez centímetros. E a minha mãe… de capacete.
 
-[tense] Onze e cinquenta e nove. Todo mundo contando junto. Dez, nove, oito… Na hora do um, eu espirrei.
+[tense] Três. Dois. Um…
 
-[surprised] E todos os poderes da rua apagaram. Ao mesmo tempo. O pão do padeiro gelou na mão dele. O fogo do seu Zé virou fumacinha. E o vizinho que voa caiu. Dez centímetros. Mas caiu.
+[surprised] Atchim!
 
-[sad] Ninguém falou nada. Só olharam pra mim. Alguém cochichou: "é pior que a mãe dele. Ela acalma. Ele apaga." Eu corri pro quarto e tranquei a porta. A minha mãe bateu três vezes. Eu não abri. Fiquei pensando que eu tinha estragado a festa de todo mundo. Que o defeito era eu.
+[excited] Apagou tudo. O fogo do seu Zé virou fumaça. O pão do padeiro gelou. E o vizinho caiu. Dez centímetros.
 
-[mysterious] De madrugada, a lâmpada do meu quarto começou a piscar. Sozinha. Pensei nela, e ela apagou. Pensei de novo, e ela acendeu. E eu percebi uma coisa: eu nem estava rindo. Quem acendia a lâmpada era eu.
+[whispers] Todo mundo olhando pra mim.
 
-[serious] Bateram na janela. Era a dona Lurdes, de camisola, com um papel amarelado na mão. A página arrancada do livro. Ela mesma arrancou, quarenta anos atrás, pra ninguém descobrir. Estava escrito: "o filho de uma âncora não apaga os poderes. Ele guarda. E escolhe pra quem devolver."
+[surprised] Aí eu começo a subir. Sozinho. Sai fogo da minha mão. Nasce um olho na minha nuca. [excited] Eu peguei o poder da rua inteira. De uma vez só!
 
-[warm] Eu desci correndo. Abracei o padeiro, e a mão dele esquentou de novo. Abracei o seu Zé, e o fogo voltou. Abracei a professora, e os olhos da nuca dela abriram de novo, um de cada vez. Abracei o vizinho, e ele subiu. Onze centímetros. Um a mais, de presente.
+Eu bato na torre do relógio. Derrubo as bandeirinhas. Passo raspando no telhado da padaria. E ninguém consegue me segurar. Quem voava, eu desliguei. Quem era forte, também.
 
-[emotional] Aí eu olhei pra minha mãe. Ela passou a vida inteira acalmando o poder dos outros. Eu segurei a mão dela e dei um poder que nunca tinha sido dela. Ela flutuou. Primeiro devagarinho. Depois até o telhado. Rindo igual criança.
+[tense] Só tem uma pessoa nessa cidade que nenhum poder consegue tocar.
 
-[warm] Durou um minuto. O minuto mais bonito da minha vida. [curious] E você? Se alguém te emprestasse um poder por um minuto, qual você ia querer?
+[warm] A minha mãe sobe a escada da torre, pula… e me abraça no ar. E tudo acalma.
+
+A gente desce devagarinho. Ela fala baixinho: "você não apaga os poderes, filho. Você guarda. Agora devolve."
+
+[cheerful] Eu abraço o padeiro. O pão esquenta. Abraço o seu Zé. Fogo de volta. Abraço a professora. Olhos na nuca, um de cada vez. Abraço o vizinho… e ele sobe. Onze centímetros. Um de presente.
+
+[emotional] Sobrou um poder dentro de mim. O de voar. Eu olho pra minha mãe. Ela nunca teve poder nenhum. Eu seguro a mão dela… e dou.
+
+[warm] E pela primeira vez na vida, a minha mãe voa. Por cima da praça inteira. Rindo igual criança.
+
+[cheerful] Agora eu sei qual é o meu poder: escolher quem vai voar. [curious] E você, pra quem você daria o seu?
