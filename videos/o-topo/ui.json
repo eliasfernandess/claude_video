@@ -1,0 +1,11 @@
+{
+  "duracao": 122.7,
+  "palavrasPorLegenda": 3,
+  "destaques": ["sonho", "ninguém", "escada", "regra", "degrau", "sofia", "juntos", "lisboa", "afastam", "meses", "três", "semanas", "despedem", "topo", "conseguiu", "vazio", "desiste"],
+  "trocas": {},
+  "elementos": [
+    { "tipo": "placa", "numero": "3 SEMANAS", "rotulo": "SEM CONVERSAR DE VERDADE", "inicio": 72.2, "fim": 75.1, "topo": 180 },
+    { "tipo": "etiqueta", "texto": "ANOS DEPOIS", "inicio": 82.4, "fim": 86.6 },
+    { "tipo": "etiqueta", "texto": "LISBOA", "inicio": 104.3, "fim": 108.4 }
+  ]
+}

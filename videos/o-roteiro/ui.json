@@ -1,0 +1,39 @@
+{
+  "duracao": 86.08,
+  "palavrasPorLegenda": 3,
+  "destaques": [
+    "universo",
+    "roteiro",
+    "envelope",
+    "nome",
+    "brincadeira",
+    "oportunidade",
+    "medo",
+    "hora",
+    "depois",
+    "tarde",
+    "café",
+    "escrita",
+    "pera",
+    "tiaguin",
+    "automático",
+    "história",
+    "costume",
+    "pronto"
+  ],
+  "trocas": {},
+  "elementos": [
+    {
+      "tipo": "etiqueta",
+      "texto": "DAQUI A 40 ANOS",
+      "inicio": 49.9,
+      "fim": 52.5
+    },
+    {
+      "tipo": "etiqueta",
+      "texto": "NO MEU ROTEIRO",
+      "inicio": 64.85,
+      "fim": 67.3
+    }
+  ]
+}

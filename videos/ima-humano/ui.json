@@ -1,0 +1,192 @@
+{
+ "duracao": 91.91,
+ "palavrasPorLegenda": 3,
+ "destaques": [
+  "metal",
+  "tiaguin",
+  "despertador",
+  "testa",
+  "chave",
+  "garfo",
+  "moedas",
+  "ímã",
+  "ferro",
+  "aço",
+  "alumínio",
+  "plástico",
+  "ouro",
+  "celular",
+  "mapa",
+  "bússola",
+  "mercado",
+  "tarja",
+  "regra",
+  "dois",
+  "metros",
+  "oito",
+  "ônibus",
+  "força",
+  "doze",
+  "toneladas",
+  "setenta",
+  "quilos",
+  "janela",
+  "banco",
+  "palmo",
+  "bueiro",
+  "sozinha",
+  "detector",
+  "brinco",
+  "poder"
+ ],
+ "trocas": {},
+ "elementos": [
+  {
+   "tipo": "quadrinho",
+   "texto": "TRIIIM!",
+   "inicio": 4.1,
+   "fim": 5.0,
+   "topo": 420,
+   "rot": -8
+  },
+  {
+   "tipo": "card",
+   "etiqueta": "DIA 1",
+   "sub": "QUARTO DO TIAGUIN",
+   "titulo": "06:30",
+   "inicio": 5.0,
+   "fim": 6.78,
+   "topo": 260
+  },
+  {
+   "tipo": "quadrinho",
+   "texto": "PÁ!",
+   "inicio": 9.57,
+   "fim": 10.6,
+   "topo": 360,
+   "rot": -7
+  },
+  {
+   "tipo": "card",
+   "etiqueta": "DENTRO DO CELULAR",
+   "titulo": "BÚSSOLA",
+   "inicio": 23.6,
+   "fim": 25.95,
+   "topo": 240
+  },
+  {
+   "tipo": "card",
+   "etiqueta": "TARJA MAGNÉTICA",
+   "titulo": "APAGADA",
+   "inicio": 34.0,
+   "fim": 35.78,
+   "topo": 1450
+  },
+  {
+   "tipo": "card",
+   "etiqueta": "REGRA #1",
+   "titulo": "NADA DE FERRO",
+   "rodape": "A MENOS DE 2 METROS",
+   "inicio": 36.75,
+   "fim": 40.42,
+   "topo": 260,
+   "tamanho": 78
+  },
+  {
+   "tipo": "numero",
+   "texto": "÷ 8",
+   "inicio": 43.81,
+   "fim": 44.78,
+   "topo": 560,
+   "tamanho": 210,
+   "cor": "#F2493D"
+  },
+  {
+   "tipo": "card",
+   "etiqueta": "3ª LEI DE NEWTON",
+   "titulo": "AÇÃO = REAÇÃO",
+   "inicio": 51.0,
+   "fim": 52.86,
+   "topo": 250,
+   "tamanho": 72
+  },
+  {
+   "tipo": "numero",
+   "texto": "12 t",
+   "inicio": 54.57,
+   "fim": 57.32,
+   "topo": 470,
+   "esquerda": 20,
+   "largura": 520,
+   "tamanho": 150
+  },
+  {
+   "tipo": "numero",
+   "texto": "70 kg",
+   "inicio": 55.98,
+   "fim": 57.32,
+   "topo": 300,
+   "esquerda": 540,
+   "largura": 520,
+   "tamanho": 130,
+   "cor": "#56D8F2"
+  },
+  {
+   "tipo": "quadrinho",
+   "texto": "CLANG!",
+   "inicio": 58.51,
+   "fim": 59.6,
+   "topo": 380,
+   "rot": 8
+  },
+  {
+   "tipo": "card",
+   "etiqueta": "REGRA #1",
+   "titulo": "2 METROS",
+   "inicio": 62.3,
+   "fim": 63.8,
+   "topo": 260
+  },
+  {
+   "tipo": "quadrinho",
+   "texto": "PLOC!",
+   "inicio": 67.87,
+   "fim": 68.6,
+   "topo": 420,
+   "rot": -6,
+   "cor": "#56D8F2"
+  },
+  {
+   "tipo": "card",
+   "etiqueta": "HOJE",
+   "titulo": "47 ACHADOS",
+   "inicio": 80.3,
+   "fim": 81.95,
+   "topo": 260
+  },
+  {
+   "tipo": "quadrinho",
+   "texto": "TRIIIM!",
+   "inicio": 86.9,
+   "fim": 87.7,
+   "topo": 420,
+   "rot": -8
+  },
+  {
+   "tipo": "card",
+   "etiqueta": "DIA 30",
+   "titulo": "06:30",
+   "inicio": 87.75,
+   "fim": 89.38,
+   "topo": 260
+  }
+ ],
+ "estilo": "rmh",
+ "ruins": [
+  "recusado",
+  "ruim",
+  "apagou",
+  "enlouquece",
+  "descolar"
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "voz": "assets/audio/voz.wav",
+ "biblioteca": "../../audio",
+ "saida_audio": "render/mix.wav",
+ "trilha": [
+  {
+   "som": "esperanca",
+   "de": 0,
+   "ate": 26.14,
+   "ganho": -24
+  },
+  {
+   "som": "emocional_piano_abafado",
+   "de": 25.43,
+   "ate": 47.29,
+   "ganho": -13,
+   "fade": 0.6
+  },
+  {
+   "som": "tensao_misterio",
+   "de": 46.91,
+   "ate": 66.64,
+   "ganho": -18,
+   "fade": 0.6
+  },
+  {
+   "som": "emocional_piano",
+   "de": 66.36,
+   "ate": 87.17,
+   "ganho": -22
+  },
+  {
+   "som": "tensao_misterio",
+   "de": 86.82,
+   "ate": 102.87,
+   "ganho": -19
+  }
+ ],
+ "abaixar_trilha_na_fala": 9,
+ "cortes": [
+  6.2,
+  12.7,
+  18.72,
+  54.74,
+  58.26,
+  66.56,
+  73.2,
+  82.68,
+  94.62
+ ],
+ "ganho_cortes": -25,
+ "efeitos": [
+  {
+   "t": 0.0,
+   "som": "whoosh_curto",
+   "ganho": -24
+  },
+  {
+   "t": 3.32,
+   "som": "tic_tac",
+   "ate": 5.19,
+   "ganho": -24
+  },
+  {
+   "t": 5.21,
+   "som": "pop",
+   "ganho": -19
+  },
+  {
+   "t": 23.3,
+   "som": "pop",
+   "ganho": -21
+  },
+  {
+   "t": 25.43,
+   "som": "swell",
+   "ganho": -20
+  },
+  {
+   "t": 30.6,
+   "som": "tic_tac",
+   "ate": 32.86,
+   "ganho": -22
+  },
+  {
+   "t": 33.58,
+   "som": "sopro_magico",
+   "ganho": -23
+  },
+  {
+   "t": 36.52,
+   "som": "ding",
+   "ganho": -21
+  },
+  {
+   "t": 41.79,
+   "som": "impacto",
+   "ganho": -22
+  },
+  {
+   "t": 46.91,
+   "som": "swell",
+   "ganho": -20
+  },
+  {
+   "t": 47.11,
+   "som": "amb_vento",
+   "ate": 64.96,
+   "ganho": -21
+  },
+  {
+   "t": 52.14,
+   "som": "whoosh",
+   "ganho": -18
+  },
+  {
+   "t": 65.4,
+   "som": "splash",
+   "ganho": -18
+  },
+  {
+   "t": 69.7,
+   "som": "papel",
+   "ganho": -22
+  },
+  {
+   "t": 72.66,
+   "som": "brilho",
+   "ganho": -18
+  },
+  {
+   "t": 78.9,
+   "som": "brilho",
+   "ganho": -24
+  },
+  {
+   "t": 91.28,
+   "som": "papel",
+   "ganho": -20
+  },
+  {
+   "t": 92.1,
+   "som": "ding",
+   "ganho": -24
+  },
+  {
+   "t": 95.7,
+   "som": "risadinha",
+   "ganho": -21
+  },
+  {
+   "t": 100.18,
+   "som": "tic_tac",
+   "ate": 102.87,
+   "ganho": -20
+  }
+ ]
+}

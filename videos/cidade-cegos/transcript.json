@@ -1,0 +1,2209 @@
+{
+"words": [
+{
+"text": "Nesta",
+"start": 0.0,
+"end": 0.377
+},
+{
+"text": "cidade,",
+"start": 0.377,
+"end": 0.808
+},
+{
+"text": "todo",
+"start": 0.956,
+"end": 1.217
+},
+{
+"text": "mundo",
+"start": 1.217,
+"end": 1.523
+},
+{
+"text": "é",
+"start": 1.523,
+"end": 1.654
+},
+{
+"text": "cego.",
+"start": 1.654,
+"end": 1.915
+},
+{
+"text": "Menos",
+"start": 2.062,
+"end": 2.371
+},
+{
+"text": "eu.",
+"start": 2.371,
+"end": 2.547
+},
+{
+"text": "Meu",
+"start": 2.707,
+"end": 2.857
+},
+{
+"text": "nome",
+"start": 2.857,
+"end": 3.036
+},
+{
+"text": "é",
+"start": 3.036,
+"end": 3.126
+},
+{
+"text": "Tiaguin,",
+"start": 3.126,
+"end": 3.395
+},
+{
+"text": "e",
+"start": 3.537,
+"end": 3.638
+},
+{
+"text": "se",
+"start": 3.638,
+"end": 3.771
+},
+{
+"text": "alguém",
+"start": 3.771,
+"end": 4.039
+},
+{
+"text": "descobrir",
+"start": 4.039,
+"end": 4.407
+},
+{
+"text": "que",
+"start": 4.407,
+"end": 4.574
+},
+{
+"text": "eu",
+"start": 4.574,
+"end": 4.708
+},
+{
+"text": "enxergo,",
+"start": 4.708,
+"end": 5.009
+},
+{
+"text": "eu",
+"start": 5.139,
+"end": 5.291
+},
+{
+"text": "sou",
+"start": 5.291,
+"end": 5.481
+},
+{
+"text": "expulso",
+"start": 5.481,
+"end": 5.823
+},
+{
+"text": "daqui.",
+"start": 5.823,
+"end": 6.09
+},
+{
+"text": "Pra",
+"start": 6.245,
+"end": 6.461
+},
+{
+"text": "sempre.",
+"start": 6.461,
+"end": 6.806
+},
+{
+"text": "Direto",
+"start": 6.949,
+"end": 7.291
+},
+{
+"text": "pro",
+"start": 7.291,
+"end": 7.505
+},
+{
+"text": "outro",
+"start": 7.505,
+"end": 7.804
+},
+{
+"text": "lado",
+"start": 7.804,
+"end": 8.061
+},
+{
+"text": "da",
+"start": 8.061,
+"end": 8.232
+},
+{
+"text": "ponte.",
+"start": 8.232,
+"end": 8.531
+},
+{
+"text": "Então",
+"start": 8.655,
+"end": 8.995
+},
+{
+"text": "eu",
+"start": 8.995,
+"end": 9.19
+},
+{
+"text": "finjo.",
+"start": 9.19,
+"end": 9.53
+},
+{
+"text": "Todo",
+"start": 9.679,
+"end": 10.008
+},
+{
+"text": "santo",
+"start": 10.008,
+"end": 10.391
+},
+{
+"text": "dia.",
+"start": 10.391,
+"end": 10.665
+},
+{
+"text": "Aqui",
+"start": 10.81,
+"end": 11.169
+},
+{
+"text": "tudo",
+"start": 11.169,
+"end": 11.42
+},
+{
+"text": "funciona",
+"start": 11.42,
+"end": 11.839
+},
+{
+"text": "no",
+"start": 11.839,
+"end": 12.006
+},
+{
+"text": "som",
+"start": 12.006,
+"end": 12.216
+},
+{
+"text": "e",
+"start": 12.216,
+"end": 12.341
+},
+{
+"text": "no",
+"start": 12.341,
+"end": 12.509
+},
+{
+"text": "tato.",
+"start": 12.509,
+"end": 12.76
+},
+{
+"text": "O",
+"start": 12.903,
+"end": 13.009
+},
+{
+"text": "semáforo",
+"start": 13.009,
+"end": 13.364
+},
+{
+"text": "canta",
+"start": 13.364,
+"end": 13.612
+},
+{
+"text": "quando",
+"start": 13.612,
+"end": 13.895
+},
+{
+"text": "pode",
+"start": 13.895,
+"end": 14.108
+},
+{
+"text": "atravessar.",
+"start": 14.108,
+"end": 14.534
+},
+{
+"text": "A",
+"start": 14.655,
+"end": 14.759
+},
+{
+"text": "padaria",
+"start": 14.759,
+"end": 15.071
+},
+{
+"text": "toca",
+"start": 15.071,
+"end": 15.279
+},
+{
+"text": "um",
+"start": 15.279,
+"end": 15.418
+},
+{
+"text": "sino",
+"start": 15.418,
+"end": 15.626
+},
+{
+"text": "quando",
+"start": 15.626,
+"end": 15.903
+},
+{
+"text": "o",
+"start": 15.903,
+"end": 16.007
+},
+{
+"text": "pão",
+"start": 16.007,
+"end": 16.18
+},
+{
+"text": "sai",
+"start": 16.18,
+"end": 16.354
+},
+{
+"text": "do",
+"start": 16.354,
+"end": 16.492
+},
+{
+"text": "forno,",
+"start": 16.492,
+"end": 16.735
+},
+{
+"text": "e",
+"start": 16.891,
+"end": 16.998
+},
+{
+"text": "a",
+"start": 16.998,
+"end": 17.104
+},
+{
+"text": "cidade",
+"start": 17.104,
+"end": 17.389
+},
+{
+"text": "inteira",
+"start": 17.389,
+"end": 17.856
+},
+{
+"text": "sai",
+"start": 17.856,
+"end": 18.034
+},
+{
+"text": "correndo",
+"start": 18.034,
+"end": 18.39
+},
+{
+"text": "de",
+"start": 18.39,
+"end": 18.532
+},
+{
+"text": "pijama.",
+"start": 18.532,
+"end": 18.817
+},
+{
+"text": "O",
+"start": 18.94,
+"end": 19.064
+},
+{
+"text": "cinema",
+"start": 19.064,
+"end": 19.393
+},
+{
+"text": "só",
+"start": 19.393,
+"end": 19.557
+},
+{
+"text": "tem",
+"start": 19.557,
+"end": 19.763
+},
+{
+"text": "som,",
+"start": 19.763,
+"end": 19.968
+},
+{
+"text": "e",
+"start": 20.132,
+"end": 20.276
+},
+{
+"text": "o",
+"start": 20.276,
+"end": 20.42
+},
+{
+"text": "melhor",
+"start": 20.42,
+"end": 20.804
+},
+{
+"text": "efeito",
+"start": 20.804,
+"end": 21.188
+},
+{
+"text": "especial",
+"start": 21.188,
+"end": 21.668
+},
+{
+"text": "é",
+"start": 21.668,
+"end": 21.812
+},
+{
+"text": "a",
+"start": 21.812,
+"end": 21.956
+},
+{
+"text": "pipoca.",
+"start": 21.956,
+"end": 22.48
+},
+{
+"text": "E",
+"start": 22.629,
+"end": 22.754
+},
+{
+"text": "ninguém",
+"start": 22.754,
+"end": 23.127
+},
+{
+"text": "liga",
+"start": 23.127,
+"end": 23.376
+},
+{
+"text": "pra",
+"start": 23.376,
+"end": 23.583
+},
+{
+"text": "roupa.",
+"start": 23.583,
+"end": 23.874
+},
+{
+"text": "Meu",
+"start": 24.015,
+"end": 24.201
+},
+{
+"text": "vizinho",
+"start": 24.201,
+"end": 24.536
+},
+{
+"text": "vai",
+"start": 24.536,
+"end": 24.722
+},
+{
+"text": "trabalhar",
+"start": 24.722,
+"end": 25.238
+},
+{
+"text": "de",
+"start": 25.238,
+"end": 25.387
+},
+{
+"text": "terno",
+"start": 25.387,
+"end": 25.648
+},
+{
+"text": "e",
+"start": 25.648,
+"end": 25.76
+},
+{
+"text": "chinelo",
+"start": 25.76,
+"end": 26.095
+},
+{
+"text": "de",
+"start": 26.095,
+"end": 26.244
+},
+{
+"text": "pato",
+"start": 26.244,
+"end": 26.467
+},
+{
+"text": "faz",
+"start": 26.467,
+"end": 26.653
+},
+{
+"text": "doze",
+"start": 26.653,
+"end": 26.877
+},
+{
+"text": "anos.",
+"start": 26.877,
+"end": 27.1
+},
+{
+"text": "E",
+"start": 27.201,
+"end": 27.309
+},
+{
+"text": "ele",
+"start": 27.309,
+"end": 27.488
+},
+{
+"text": "está",
+"start": 27.488,
+"end": 27.704
+},
+{
+"text": "ótimo.",
+"start": 27.704,
+"end": 27.955
+},
+{
+"text": "Eu",
+"start": 28.091,
+"end": 28.253
+},
+{
+"text": "uso",
+"start": 28.253,
+"end": 28.454
+},
+{
+"text": "óculos",
+"start": 28.454,
+"end": 28.777
+},
+{
+"text": "escuros,",
+"start": 28.777,
+"end": 29.139
+},
+{
+"text": "ando",
+"start": 29.139,
+"end": 29.381
+},
+{
+"text": "de",
+"start": 29.381,
+"end": 29.542
+},
+{
+"text": "bengala",
+"start": 29.542,
+"end": 29.905
+},
+{
+"text": "e,",
+"start": 29.905,
+"end": 30.026
+},
+{
+"text": "de",
+"start": 30.18,
+"end": 30.334
+},
+{
+"text": "vez",
+"start": 30.334,
+"end": 30.526
+},
+{
+"text": "em",
+"start": 30.526,
+"end": 30.68
+},
+{
+"text": "quando,",
+"start": 30.68,
+"end": 30.988
+},
+{
+"text": "dou",
+"start": 30.988,
+"end": 31.18
+},
+{
+"text": "bom",
+"start": 31.18,
+"end": 31.372
+},
+{
+"text": "dia",
+"start": 31.372,
+"end": 31.564
+},
+{
+"text": "pro",
+"start": 31.564,
+"end": 31.756
+},
+{
+"text": "poste.",
+"start": 31.756,
+"end": 32.026
+},
+{
+"text": "Só",
+"start": 32.157,
+"end": 32.286
+},
+{
+"text": "pra",
+"start": 32.286,
+"end": 32.448
+},
+{
+"text": "garantir.",
+"start": 32.448,
+"end": 32.772
+},
+{
+"text": "Já",
+"start": 32.917,
+"end": 33.053
+},
+{
+"text": "cumprimentei",
+"start": 33.053,
+"end": 33.532
+},
+{
+"text": "o",
+"start": 33.532,
+"end": 33.635
+},
+{
+"text": "mesmo",
+"start": 33.635,
+"end": 33.874
+},
+{
+"text": "poste",
+"start": 33.874,
+"end": 34.113
+},
+{
+"text": "tantas",
+"start": 34.113,
+"end": 34.527
+},
+{
+"text": "vezes",
+"start": 34.527,
+"end": 34.766
+},
+{
+"text": "que",
+"start": 34.766,
+"end": 34.937
+},
+{
+"text": "acho",
+"start": 34.937,
+"end": 35.142
+},
+{
+"text": "que",
+"start": 35.142,
+"end": 35.313
+},
+{
+"text": "a",
+"start": 35.313,
+"end": 35.416
+},
+{
+"text": "gente",
+"start": 35.416,
+"end": 35.655
+},
+{
+"text": "é",
+"start": 35.655,
+"end": 35.758
+},
+{
+"text": "amigo.",
+"start": 35.758,
+"end": 35.997
+},
+{
+"text": "O",
+"start": 36.157,
+"end": 36.304
+},
+{
+"text": "problema",
+"start": 36.304,
+"end": 36.792
+},
+{
+"text": "é",
+"start": 36.792,
+"end": 36.938
+},
+{
+"text": "o",
+"start": 36.938,
+"end": 37.085
+},
+{
+"text": "Seu",
+"start": 37.085,
+"end": 37.329
+},
+{
+"text": "Bento,",
+"start": 37.329,
+"end": 37.671
+},
+{
+"text": "o",
+"start": 37.671,
+"end": 37.817
+},
+{
+"text": "vigia",
+"start": 37.817,
+"end": 38.159
+},
+{
+"text": "dos",
+"start": 38.159,
+"end": 38.403
+},
+{
+"text": "cegos.",
+"start": 38.403,
+"end": 38.745
+},
+{
+"text": "Ele",
+"start": 38.887,
+"end": 39.07
+},
+{
+"text": "anda",
+"start": 39.07,
+"end": 39.29
+},
+{
+"text": "com",
+"start": 39.29,
+"end": 39.591
+},
+{
+"text": "um",
+"start": 39.591,
+"end": 39.738
+},
+{
+"text": "apito",
+"start": 39.738,
+"end": 39.994
+},
+{
+"text": "no",
+"start": 39.994,
+"end": 40.141
+},
+{
+"text": "pescoço",
+"start": 40.141,
+"end": 40.471
+},
+{
+"text": "e",
+"start": 40.471,
+"end": 40.581
+},
+{
+"text": "uma",
+"start": 40.581,
+"end": 40.765
+},
+{
+"text": "galinha",
+"start": 40.765,
+"end": 41.095
+},
+{
+"text": "de",
+"start": 41.095,
+"end": 41.241
+},
+{
+"text": "borracha",
+"start": 41.241,
+"end": 41.608
+},
+{
+"text": "no",
+"start": 41.608,
+"end": 41.968
+},
+{
+"text": "bolso,",
+"start": 41.968,
+"end": 42.225
+},
+{
+"text": "e",
+"start": 42.373,
+"end": 42.466
+},
+{
+"text": "testa",
+"start": 42.466,
+"end": 42.684
+},
+{
+"text": "todo",
+"start": 42.684,
+"end": 42.871
+},
+{
+"text": "mundo.",
+"start": 42.871,
+"end": 43.089
+},
+{
+"text": "Faz",
+"start": 43.089,
+"end": 43.245
+},
+{
+"text": "careta",
+"start": 43.245,
+"end": 43.494
+},
+{
+"text": "na",
+"start": 43.494,
+"end": 43.619
+},
+{
+"text": "minha",
+"start": 43.619,
+"end": 43.837
+},
+{
+"text": "frente.",
+"start": 43.837,
+"end": 44.086
+},
+{
+"text": "Joga",
+"start": 44.215,
+"end": 44.432
+},
+{
+"text": "uma",
+"start": 44.432,
+"end": 44.612
+},
+{
+"text": "bolinha",
+"start": 44.612,
+"end": 44.938
+},
+{
+"text": "bem",
+"start": 44.938,
+"end": 45.118
+},
+{
+"text": "devagar.",
+"start": 45.118,
+"end": 45.443
+},
+{
+"text": "Escreve",
+"start": 45.443,
+"end": 45.768
+},
+{
+"text": "você",
+"start": 45.768,
+"end": 45.985
+},
+{
+"text": "enxerga?",
+"start": 45.985,
+"end": 46.31
+},
+{
+"text": "no",
+"start": 46.45,
+"end": 46.737
+},
+{
+"text": "chão,",
+"start": 46.737,
+"end": 47.167
+},
+{
+"text": "com",
+"start": 47.31,
+"end": 47.519
+},
+{
+"text": "giz.",
+"start": 47.519,
+"end": 47.729
+},
+{
+"text": "Grita",
+"start": 47.842,
+"end": 48.303
+},
+{
+"text": "olha,",
+"start": 48.303,
+"end": 48.836
+},
+{
+"text": "um",
+"start": 48.978,
+"end": 49.209
+},
+{
+"text": "disco",
+"start": 49.209,
+"end": 49.614
+},
+{
+"text": "voador!",
+"start": 49.614,
+"end": 50.077
+},
+{
+"text": "e",
+"start": 50.216,
+"end": 50.329
+},
+{
+"text": "aponta",
+"start": 50.329,
+"end": 50.633
+},
+{
+"text": "pro",
+"start": 50.633,
+"end": 50.823
+},
+{
+"text": "céu.",
+"start": 50.823,
+"end": 51.012
+},
+{
+"text": "E",
+"start": 51.164,
+"end": 51.275
+},
+{
+"text": "eu",
+"start": 51.275,
+"end": 51.524
+},
+{
+"text": "passo",
+"start": 51.524,
+"end": 51.946
+},
+{
+"text": "em",
+"start": 51.946,
+"end": 52.095
+},
+{
+"text": "todos.",
+"start": 52.095,
+"end": 52.354
+},
+{
+"text": "Piso",
+"start": 52.488,
+"end": 52.712
+},
+{
+"text": "em",
+"start": 52.712,
+"end": 52.862
+},
+{
+"text": "cima",
+"start": 52.862,
+"end": 53.086
+},
+{
+"text": "do",
+"start": 53.086,
+"end": 53.236
+},
+{
+"text": "giz.",
+"start": 53.236,
+"end": 53.423
+},
+{
+"text": "Deixo",
+"start": 53.569,
+"end": 53.818
+},
+{
+"text": "a",
+"start": 53.818,
+"end": 53.925
+},
+{
+"text": "bolinha",
+"start": 53.925,
+"end": 54.246
+},
+{
+"text": "bater",
+"start": 54.246,
+"end": 54.495
+},
+{
+"text": "na",
+"start": 54.495,
+"end": 54.638
+},
+{
+"text": "testa.",
+"start": 54.638,
+"end": 54.887
+},
+{
+"text": "Continuo",
+"start": 55.035,
+"end": 55.373
+},
+{
+"text": "olhando",
+"start": 55.373,
+"end": 55.677
+},
+{
+"text": "pro",
+"start": 55.677,
+"end": 55.846
+},
+{
+"text": "nada",
+"start": 55.846,
+"end": 56.048
+},
+{
+"text": "enquanto",
+"start": 56.048,
+"end": 56.386
+},
+{
+"text": "a",
+"start": 56.386,
+"end": 56.488
+},
+{
+"text": "cidade",
+"start": 56.488,
+"end": 56.758
+},
+{
+"text": "inteira",
+"start": 56.758,
+"end": 57.204
+},
+{
+"text": "procura",
+"start": 57.204,
+"end": 57.508
+},
+{
+"text": "o",
+"start": 57.508,
+"end": 57.61
+},
+{
+"text": "disco.",
+"start": 57.61,
+"end": 57.846
+},
+{
+"text": "E",
+"start": 57.985,
+"end": 58.096
+},
+{
+"text": "seguro",
+"start": 58.096,
+"end": 58.392
+},
+{
+"text": "o",
+"start": 58.392,
+"end": 58.503
+},
+{
+"text": "riso",
+"start": 58.503,
+"end": 58.725
+},
+{
+"text": "da",
+"start": 58.725,
+"end": 58.873
+},
+{
+"text": "careta",
+"start": 58.873,
+"end": 59.279
+},
+{
+"text": "tão",
+"start": 59.279,
+"end": 59.464
+},
+{
+"text": "forte",
+"start": 59.464,
+"end": 59.723
+},
+{
+"text": "que",
+"start": 59.723,
+"end": 59.908
+},
+{
+"text": "sai",
+"start": 59.908,
+"end": 60.093
+},
+{
+"text": "um",
+"start": 60.093,
+"end": 60.241
+},
+{
+"text": "ronco.",
+"start": 60.241,
+"end": 60.654
+},
+{
+"text": "Até",
+"start": 60.797,
+"end": 60.993
+},
+{
+"text": "o",
+"start": 60.993,
+"end": 61.11
+},
+{
+"text": "dia",
+"start": 61.11,
+"end": 61.306
+},
+{
+"text": "da",
+"start": 61.306,
+"end": 61.463
+},
+{
+"text": "festa",
+"start": 61.463,
+"end": 61.737
+},
+{
+"text": "da",
+"start": 61.737,
+"end": 61.894
+},
+{
+"text": "cidade.",
+"start": 61.894,
+"end": 62.208
+},
+{
+"text": "Teste",
+"start": 62.333,
+"end": 62.556
+},
+{
+"text": "final,",
+"start": 62.556,
+"end": 62.779
+},
+{
+"text": "na",
+"start": 62.779,
+"end": 62.907
+},
+{
+"text": "praça,",
+"start": 62.907,
+"end": 63.13
+},
+{
+"text": "na",
+"start": 63.13,
+"end": 63.257
+},
+{
+"text": "frente",
+"start": 63.257,
+"end": 63.512
+},
+{
+"text": "de",
+"start": 63.512,
+"end": 63.64
+},
+{
+"text": "todo",
+"start": 63.64,
+"end": 63.831
+},
+{
+"text": "mundo.",
+"start": 63.831,
+"end": 64.054
+},
+{
+"text": "O",
+"start": 64.21,
+"end": 64.357
+},
+{
+"text": "Seu",
+"start": 64.357,
+"end": 64.602
+},
+{
+"text": "Bento",
+"start": 64.602,
+"end": 65.055
+},
+{
+"text": "sobe",
+"start": 65.055,
+"end": 65.349
+},
+{
+"text": "no",
+"start": 65.349,
+"end": 65.546
+},
+{
+"text": "palco,",
+"start": 65.546,
+"end": 65.889
+},
+{
+"text": "tira",
+"start": 66.175,
+"end": 66.387
+},
+{
+"text": "a",
+"start": 66.387,
+"end": 66.492
+},
+{
+"text": "galinha",
+"start": 66.492,
+"end": 66.809
+},
+{
+"text": "de",
+"start": 66.809,
+"end": 66.95
+},
+{
+"text": "borracha",
+"start": 66.95,
+"end": 67.303
+},
+{
+"text": "do",
+"start": 67.303,
+"end": 67.444
+},
+{
+"text": "bolso",
+"start": 67.444,
+"end": 67.69
+},
+{
+"text": "e",
+"start": 67.69,
+"end": 67.796
+},
+{
+"text": "faz",
+"start": 67.796,
+"end": 67.972
+},
+{
+"text": "ela",
+"start": 67.972,
+"end": 68.148
+},
+{
+"text": "dançar.",
+"start": 68.148,
+"end": 68.43
+},
+{
+"text": "Uma",
+"start": 68.559,
+"end": 68.821
+},
+{
+"text": "dança",
+"start": 68.821,
+"end": 69.187
+},
+{
+"text": "horrível.",
+"start": 69.187,
+"end": 69.71
+},
+{
+"text": "Maravilhosa.",
+"start": 69.835,
+"end": 70.702
+},
+{
+"text": "A",
+"start": 71.012,
+"end": 71.142
+},
+{
+"text": "pior",
+"start": 71.142,
+"end": 71.511
+},
+{
+"text": "coisa",
+"start": 71.511,
+"end": 71.814
+},
+{
+"text": "que",
+"start": 71.814,
+"end": 72.03
+},
+{
+"text": "eu",
+"start": 72.03,
+"end": 72.203
+},
+{
+"text": "já",
+"start": 72.203,
+"end": 72.376
+},
+{
+"text": "vi",
+"start": 72.376,
+"end": 72.549
+},
+{
+"text": "na",
+"start": 72.549,
+"end": 72.871
+},
+{
+"text": "vida.",
+"start": 72.871,
+"end": 73.13
+},
+{
+"text": "Eu",
+"start": 73.287,
+"end": 73.49
+},
+{
+"text": "aguento",
+"start": 73.49,
+"end": 73.944
+},
+{
+"text": "um",
+"start": 73.944,
+"end": 74.146
+},
+{
+"text": "segundo.",
+"start": 74.146,
+"end": 74.601
+},
+{
+"text": "Dois.",
+"start": 74.601,
+"end": 74.904
+},
+{
+"text": "E",
+"start": 75.048,
+"end": 75.151
+},
+{
+"text": "solto",
+"start": 75.151,
+"end": 75.391
+},
+{
+"text": "uma",
+"start": 75.391,
+"end": 75.563
+},
+{
+"text": "gargalhada",
+"start": 75.563,
+"end": 75.975
+},
+{
+"text": "que",
+"start": 75.975,
+"end": 76.146
+},
+{
+"text": "ecoa",
+"start": 76.146,
+"end": 76.352
+},
+{
+"text": "pela",
+"start": 76.352,
+"end": 76.558
+},
+{
+"text": "praça",
+"start": 76.558,
+"end": 76.799
+},
+{
+"text": "inteira.",
+"start": 76.799,
+"end": 77.108
+},
+{
+"text": "Silêncio.",
+"start": 77.246,
+"end": 77.523
+},
+{
+"text": "A",
+"start": 77.665,
+"end": 77.815
+},
+{
+"text": "cidade",
+"start": 77.815,
+"end": 78.213
+},
+{
+"text": "toda",
+"start": 78.213,
+"end": 78.512
+},
+{
+"text": "vira",
+"start": 78.512,
+"end": 78.811
+},
+{
+"text": "a",
+"start": 78.811,
+"end": 79.122
+},
+{
+"text": "cabeça",
+"start": 79.122,
+"end": 79.521
+},
+{
+"text": "pro",
+"start": 79.521,
+"end": 79.77
+},
+{
+"text": "meu",
+"start": 79.77,
+"end": 80.019
+},
+{
+"text": "lado.",
+"start": 80.019,
+"end": 80.318
+},
+{
+"text": "E",
+"start": 80.465,
+"end": 80.569
+},
+{
+"text": "o",
+"start": 80.569,
+"end": 80.673
+},
+{
+"text": "Seu",
+"start": 80.673,
+"end": 80.846
+},
+{
+"text": "Bento",
+"start": 80.846,
+"end": 81.088
+},
+{
+"text": "pega",
+"start": 81.088,
+"end": 81.296
+},
+{
+"text": "o",
+"start": 81.296,
+"end": 81.4
+},
+{
+"text": "microfone",
+"start": 81.4,
+"end": 81.781
+},
+{
+"text": "e",
+"start": 81.781,
+"end": 81.884
+},
+{
+"text": "fala:",
+"start": 81.884,
+"end": 82.092
+},
+{
+"text": "Calma,",
+"start": 82.247,
+"end": 82.609
+},
+{
+"text": "gente.",
+"start": 82.609,
+"end": 82.971
+},
+{
+"text": "Ele",
+"start": 82.971,
+"end": 83.23
+},
+{
+"text": "é",
+"start": 83.23,
+"end": 83.385
+},
+{
+"text": "cego,",
+"start": 83.385,
+"end": 83.695
+},
+{
+"text": "sim.",
+"start": 83.695,
+"end": 83.953
+},
+{
+"text": "Cego",
+"start": 84.096,
+"end": 84.396
+},
+{
+"text": "de",
+"start": 84.396,
+"end": 84.597
+},
+{
+"text": "tanto",
+"start": 84.597,
+"end": 85.092
+},
+{
+"text": "rir.",
+"start": 85.092,
+"end": 85.343
+},
+{
+"text": "A",
+"start": 85.496,
+"end": 85.611
+},
+{
+"text": "praça",
+"start": 85.611,
+"end": 85.882
+},
+{
+"text": "inteira",
+"start": 85.882,
+"end": 86.39
+},
+{
+"text": "cai",
+"start": 86.39,
+"end": 86.583
+},
+{
+"text": "na",
+"start": 86.583,
+"end": 86.738
+},
+{
+"text": "risada",
+"start": 86.738,
+"end": 87.047
+},
+{
+"text": "junto.",
+"start": 87.047,
+"end": 87.317
+},
+{
+"text": "Depois,",
+"start": 87.466,
+"end": 87.797
+},
+{
+"text": "ele",
+"start": 87.797,
+"end": 88.004
+},
+{
+"text": "tira",
+"start": 88.004,
+"end": 88.252
+},
+{
+"text": "os",
+"start": 88.252,
+"end": 88.418
+},
+{
+"text": "óculos",
+"start": 88.418,
+"end": 88.749
+},
+{
+"text": "escuros",
+"start": 88.749,
+"end": 89.122
+},
+{
+"text": "e",
+"start": 89.122,
+"end": 89.246
+},
+{
+"text": "pisca",
+"start": 89.246,
+"end": 89.536
+},
+{
+"text": "pra",
+"start": 89.536,
+"end": 89.743
+},
+{
+"text": "mim.",
+"start": 89.743,
+"end": 89.95
+},
+{
+"text": "Cego",
+"start": 90.1,
+"end": 90.331
+},
+{
+"text": "não",
+"start": 90.331,
+"end": 90.523
+},
+{
+"text": "pisca",
+"start": 90.523,
+"end": 90.793
+},
+{
+"text": "pra",
+"start": 90.793,
+"end": 90.986
+},
+{
+"text": "ninguém.",
+"start": 90.986,
+"end": 91.332
+},
+{
+"text": "Ele",
+"start": 91.483,
+"end": 91.698
+},
+{
+"text": "também",
+"start": 91.698,
+"end": 92.041
+},
+{
+"text": "enxerga.",
+"start": 92.041,
+"end": 92.428
+},
+{
+"text": "Há",
+"start": 92.562,
+"end": 92.886
+},
+{
+"text": "trinta",
+"start": 92.886,
+"end": 93.249
+},
+{
+"text": "anos.",
+"start": 93.249,
+"end": 93.52
+},
+{
+"text": "Ele",
+"start": 93.644,
+"end": 93.828
+},
+{
+"text": "nunca",
+"start": 93.828,
+"end": 94.085
+},
+{
+"text": "procurou",
+"start": 94.085,
+"end": 94.453
+},
+{
+"text": "alguém",
+"start": 94.453,
+"end": 94.747
+},
+{
+"text": "pra",
+"start": 94.747,
+"end": 94.93
+},
+{
+"text": "expulsar.",
+"start": 94.93,
+"end": 95.298
+},
+{
+"text": "Ele",
+"start": 95.298,
+"end": 95.482
+},
+{
+"text": "procurava",
+"start": 95.482,
+"end": 95.886
+},
+{
+"text": "alguém",
+"start": 95.886,
+"end": 96.18
+},
+{
+"text": "pra",
+"start": 96.18,
+"end": 96.364
+},
+{
+"text": "rir",
+"start": 96.364,
+"end": 96.547
+},
+{
+"text": "junto",
+"start": 96.547,
+"end": 96.805
+},
+{
+"text": "da",
+"start": 96.805,
+"end": 96.952
+},
+{
+"text": "galinha",
+"start": 96.952,
+"end": 97.282
+},
+{
+"text": "dançando.",
+"start": 97.282,
+"end": 97.65
+},
+{
+"text": "Agora",
+"start": 97.769,
+"end": 97.955
+},
+{
+"text": "a",
+"start": 97.955,
+"end": 98.035
+},
+{
+"text": "gente",
+"start": 98.035,
+"end": 98.221
+},
+{
+"text": "tem",
+"start": 98.221,
+"end": 98.353
+},
+{
+"text": "um",
+"start": 98.353,
+"end": 98.459
+},
+{
+"text": "segredo",
+"start": 98.459,
+"end": 98.698
+},
+{
+"text": "e",
+"start": 98.698,
+"end": 98.778
+},
+{
+"text": "um",
+"start": 98.778,
+"end": 98.884
+},
+{
+"text": "combinado.",
+"start": 98.884,
+"end": 99.176
+},
+{
+"text": "Todo",
+"start": 99.176,
+"end": 99.335
+},
+{
+"text": "fim",
+"start": 99.335,
+"end": 99.468
+},
+{
+"text": "de",
+"start": 99.468,
+"end": 99.574
+},
+{
+"text": "tarde,",
+"start": 99.574,
+"end": 99.76
+},
+{
+"text": "a",
+"start": 99.893,
+"end": 100.016
+},
+{
+"text": "gente",
+"start": 100.016,
+"end": 100.302
+},
+{
+"text": "sobe",
+"start": 100.302,
+"end": 100.548
+},
+{
+"text": "na",
+"start": 100.548,
+"end": 100.712
+},
+{
+"text": "caixa",
+"start": 100.712,
+"end": 100.998
+},
+{
+"text": "d'água",
+"start": 100.998,
+"end": 101.284
+},
+{
+"text": "com",
+"start": 101.284,
+"end": 101.489
+},
+{
+"text": "um",
+"start": 101.489,
+"end": 101.653
+},
+{
+"text": "rádio",
+"start": 101.653,
+"end": 101.939
+},
+{
+"text": "velho",
+"start": 101.939,
+"end": 102.225
+},
+{
+"text": "e",
+"start": 102.225,
+"end": 102.348
+},
+{
+"text": "conta",
+"start": 102.348,
+"end": 102.635
+},
+{
+"text": "pra",
+"start": 102.635,
+"end": 103.142
+},
+{
+"text": "cidade",
+"start": 103.142,
+"end": 103.469
+},
+{
+"text": "como",
+"start": 103.469,
+"end": 103.817
+},
+{
+"text": "está",
+"start": 103.817,
+"end": 104.062
+},
+{
+"text": "o",
+"start": 104.062,
+"end": 104.185
+},
+{
+"text": "pôr",
+"start": 104.185,
+"end": 104.39
+},
+{
+"text": "do",
+"start": 104.39,
+"end": 104.553
+},
+{
+"text": "sol.",
+"start": 104.553,
+"end": 104.758
+},
+{
+"text": "Ontem",
+"start": 104.895,
+"end": 105.145
+},
+{
+"text": "estava",
+"start": 105.145,
+"end": 105.431
+},
+{
+"text": "laranja,",
+"start": 105.431,
+"end": 105.753
+},
+{
+"text": "com",
+"start": 105.753,
+"end": 105.931
+},
+{
+"text": "uma",
+"start": 105.931,
+"end": 106.11
+},
+{
+"text": "nuvem",
+"start": 106.11,
+"end": 106.36
+},
+{
+"text": "em",
+"start": 106.36,
+"end": 106.503
+},
+{
+"text": "formato",
+"start": 106.503,
+"end": 106.825
+},
+{
+"text": "de",
+"start": 106.825,
+"end": 106.968
+},
+{
+"text": "pato.",
+"start": 106.968,
+"end": 107.182
+},
+{
+"text": "Meu",
+"start": 107.331,
+"end": 107.519
+},
+{
+"text": "vizinho,",
+"start": 107.519,
+"end": 107.857
+},
+{
+"text": "aquele",
+"start": 107.965,
+"end": 108.234
+},
+{
+"text": "do",
+"start": 108.234,
+"end": 108.368
+},
+{
+"text": "chinelo,",
+"start": 108.368,
+"end": 108.67
+},
+{
+"text": "disse",
+"start": 108.777,
+"end": 109.018
+},
+{
+"text": "que",
+"start": 109.018,
+"end": 109.19
+},
+{
+"text": "já",
+"start": 109.19,
+"end": 109.327
+},
+{
+"text": "sabia.",
+"start": 109.327,
+"end": 109.568
+},
+{
+"text": "Eu",
+"start": 109.725,
+"end": 109.887
+},
+{
+"text": "continuo",
+"start": 109.887,
+"end": 110.291
+},
+{
+"text": "fingindo.",
+"start": 110.291,
+"end": 110.695
+},
+{
+"text": "Mas",
+"start": 110.821,
+"end": 110.997
+},
+{
+"text": "agora",
+"start": 110.997,
+"end": 111.243
+},
+{
+"text": "eu",
+"start": 111.243,
+"end": 111.384
+},
+{
+"text": "entendi:",
+"start": 111.384,
+"end": 111.701
+},
+{
+"text": "enxergar",
+"start": 111.845,
+"end": 112.284
+},
+{
+"text": "nunca",
+"start": 112.284,
+"end": 112.592
+},
+{
+"text": "foi",
+"start": 112.592,
+"end": 112.811
+},
+{
+"text": "o",
+"start": 112.811,
+"end": 112.943
+},
+{
+"text": "problema.",
+"start": 112.943,
+"end": 113.382
+},
+{
+"text": "O",
+"start": 113.534,
+"end": 113.641
+},
+{
+"text": "bom",
+"start": 113.641,
+"end": 113.82
+},
+{
+"text": "mesmo",
+"start": 113.82,
+"end": 114.07
+},
+{
+"text": "é",
+"start": 114.07,
+"end": 114.178
+},
+{
+"text": "ter",
+"start": 114.178,
+"end": 114.474
+},
+{
+"text": "alguém",
+"start": 114.474,
+"end": 114.76
+},
+{
+"text": "pra",
+"start": 114.76,
+"end": 114.938
+},
+{
+"text": "dividir",
+"start": 114.938,
+"end": 115.26
+},
+{
+"text": "o",
+"start": 115.26,
+"end": 115.368
+},
+{
+"text": "que",
+"start": 115.368,
+"end": 115.546
+},
+{
+"text": "a",
+"start": 115.546,
+"end": 115.654
+},
+{
+"text": "gente",
+"start": 115.654,
+"end": 115.904
+},
+{
+"text": "vê.",
+"start": 115.904,
+"end": 116.047
+}
+]
+}

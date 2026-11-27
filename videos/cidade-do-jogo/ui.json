@@ -1,0 +1,315 @@
+{
+ "duracao": 112.52,
+ "palavrasPorLegenda": 3,
+ "destaques": [
+  "sobreviva",
+  "jogo",
+  "nível",
+  "vida",
+  "pontos",
+  "missão",
+  "temporada",
+  "arena",
+  "último",
+  "pé",
+  "tiaguin",
+  "baú",
+  "dourado",
+  "água",
+  "ar",
+  "comida",
+  "riacho",
+  "calor",
+  "fogueira",
+  "quilômetros",
+  "zona",
+  "nina",
+  "galho",
+  "sentou",
+  "zero",
+  "pausado",
+  "cida",
+  "céu"
+ ],
+ "trocas": {},
+ "elementos": [
+  {
+   "tipo": "gancho",
+   "inicio": 0.0,
+   "fim": 3.7,
+   "texto": "E SE VOCÊ MORASSE NUMA CIDADE ONDE TODO MUNDO *VIVE DENTRO DE UM JOGO?*",
+   "topo": 170
+  },
+  {
+   "tipo": "hud",
+   "inicio": 6.84,
+   "fim": 9.1,
+   "rotulo": "TODO MUNDO NASCE",
+   "valor": "NÍVEL 1",
+   "cor": "#FFD23F",
+   "topo": 210
+  },
+  {
+   "tipo": "hud",
+   "inicio": 9.16,
+   "fim": 11.3,
+   "rotulo": "SALDO",
+   "de": 12,
+   "ate": 4,
+   "sufixo": " PTS",
+   "duracaoConta": 0.5,
+   "atraso": 0.55,
+   "topo": 210
+  },
+  {
+   "tipo": "dano",
+   "inicio": 9.68,
+   "fim": 10.4,
+   "texto": "-5",
+   "topo": 600
+  },
+  {
+   "tipo": "dano",
+   "inicio": 10.85,
+   "fim": 11.35,
+   "texto": "-3",
+   "topo": 600
+  },
+  {
+   "tipo": "hud",
+   "inicio": 11.4,
+   "fim": 15.75,
+   "rotulo": "MISSÕES DO DIA",
+   "de": 4,
+   "ate": 14,
+   "sufixo": " PTS",
+   "duracaoConta": 2.0,
+   "atraso": 1.95,
+   "ease": "none",
+   "topo": 1430
+  },
+  {
+   "tipo": "dano",
+   "inicio": 13.4,
+   "fim": 14.05,
+   "texto": "+3",
+   "topo": 560
+  },
+  {
+   "tipo": "dano",
+   "inicio": 14.2,
+   "fim": 14.9,
+   "texto": "+5",
+   "topo": 560
+  },
+  {
+   "tipo": "dano",
+   "inicio": 15.0,
+   "fim": 15.75,
+   "texto": "+2",
+   "topo": 560
+  },
+  {
+   "tipo": "hud",
+   "inicio": 23.33,
+   "fim": 25.85,
+   "rotulo": "VÃO PRA ARENA",
+   "valor": "24",
+   "sub": "OS MENOS PONTOS",
+   "cor": "#FF5A4E",
+   "borda": "#FF5A4E",
+   "topo": 200
+  },
+  {
+   "tipo": "hud",
+   "inicio": 25.89,
+   "fim": 29.1,
+   "rotulo": "REGRA",
+   "valor": "VENCE O ÚLTIMO DE PÉ",
+   "sub": "PRÊMIO: COMIDA PRO BAIRRO",
+   "tamanho": 62,
+   "topo": 210
+  },
+  {
+   "tipo": "aviso",
+   "inicio": 29.9,
+   "fim": 32.5,
+   "texto": "SEM RENASCER",
+   "topo": 1430
+  },
+  {
+   "tipo": "hud",
+   "inicio": 35.0,
+   "fim": 36.8,
+   "rotulo": "SALDO DO TIAGUIN",
+   "valor": "48 PTS",
+   "cor": "#FFD23F",
+   "topo": 1430
+  },
+  {
+   "tipo": "dano",
+   "inicio": 37.55,
+   "fim": 38.4,
+   "texto": "-24",
+   "esquerda": 60,
+   "largura": 480,
+   "topo": 560
+  },
+  {
+   "tipo": "dano",
+   "inicio": 38.23,
+   "fim": 39.2,
+   "texto": "+24",
+   "esquerda": 560,
+   "largura": 480,
+   "topo": 560
+  },
+  {
+   "tipo": "aviso",
+   "inicio": 40.4,
+   "fim": 41.3,
+   "texto": "23º · PENÚLTIMO",
+   "topo": 1460
+  },
+  {
+   "tipo": "hud",
+   "inicio": 42.3,
+   "fim": 46.7,
+   "rotulo": "JOGADORES",
+   "valor": "24",
+   "topo": 200
+  },
+  {
+   "tipo": "titulo",
+   "inicio": 49.1,
+   "fim": 50.25,
+   "texto": "REGRA DOS 3",
+   "tamanho": 120,
+   "topo": 560
+  },
+  {
+   "tipo": "hud",
+   "inicio": 53.9,
+   "fim": 55.3,
+   "rotulo": "ITEM ESSENCIAL",
+   "valor": "ÁGUA",
+   "cor": "#5FC8FF",
+   "borda": "#5FC8FF",
+   "corRotulo": "#5FC8FF",
+   "topo": 230
+  },
+  {
+   "tipo": "vida",
+   "inicio": 57.5,
+   "fim": 59.45,
+   "rotulo": "VIDA · TIAGUIN",
+   "de": 50,
+   "ate": 65,
+   "cor": "linear-gradient(90deg,#3FCF6A,#8CF0A0)",
+   "atraso": 1.15,
+   "topo": 210
+  },
+  {
+   "tipo": "dano",
+   "inicio": 58.65,
+   "fim": 59.45,
+   "texto": "+15",
+   "topo": 520
+  },
+  {
+   "tipo": "hud",
+   "inicio": 63.6,
+   "fim": 65.8,
+   "rotulo": "PERDE CALOR",
+   "valor": "× 25",
+   "sub": "MAIS RÁPIDO NA ÁGUA",
+   "cor": "#5FC8FF",
+   "tamanho": 120,
+   "topo": 200,
+   "pulsa": true,
+   "de": 1,
+   "ate": 25,
+   "prefixo": "× ",
+   "duracaoConta": 0.8
+  },
+  {
+   "tipo": "hud",
+   "inicio": 71.5,
+   "fim": 73.0,
+   "rotulo": "DÁ PRA VER A",
+   "valor": "2 KM",
+   "cor": "#FFB13B",
+   "borda": "#FFB13B",
+   "topo": 230
+  },
+  {
+   "tipo": "aviso",
+   "inicio": 74.2,
+   "fim": 75.0,
+   "texto": "EU TÔ AQUI",
+   "topo": 1460
+  },
+  {
+   "tipo": "hud",
+   "inicio": 77.14,
+   "fim": 80.8,
+   "rotulo": "DIA",
+   "valor": "3",
+   "topo": 200
+  },
+  {
+   "tipo": "aviso",
+   "inicio": 78.1,
+   "fim": 80.8,
+   "texto": "A ZONA ESTÁ FECHANDO",
+   "fundo": "#2B7FD0",
+   "topo": 430
+  },
+  {
+   "tipo": "hud",
+   "inicio": 80.84,
+   "fim": 84.7,
+   "rotulo": "JOGADORES",
+   "de": 24,
+   "ate": 2,
+   "duracaoConta": 0.6,
+   "atraso": 0.45,
+   "pulsa": true,
+   "topo": 200
+  },
+  {
+   "tipo": "vida",
+   "inicio": 84.78,
+   "fim": 86.25,
+   "rotulo": "VIDA · NINA",
+   "de": 40,
+   "ate": 10,
+   "atraso": 0.15,
+   "pisca": true,
+   "topo": 1430
+  },
+  {
+   "tipo": "vida",
+   "inicio": 86.3,
+   "fim": 87.25,
+   "rotulo": "VIDA · TIAGUIN",
+   "de": 40,
+   "ate": 12,
+   "atraso": 0.15,
+   "pisca": true,
+   "topo": 1430
+  }
+ ],
+ "estilo": "jogo",
+ "ruins": [
+  "renascer",
+  "zera",
+  "sempre",
+  "penúltimo",
+  "fugir",
+  "erro",
+  "travou",
+  "dez",
+  "doze"
+ ]
+}

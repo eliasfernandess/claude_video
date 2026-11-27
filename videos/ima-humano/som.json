@@ -1,0 +1,39 @@
+{
+  "voz": "/tmp/claude-0/-home-user-claude-video/5684e1ff-cf4b-5410-8afb-705b69aedd94/scratchpad/kit/Kit-E-se-Animado/meus-videos/ima-humano/assets/audio/voz.wav",
+  "duracao": 91.91,
+  "biblioteca": "../../audio",
+  "saida_audio": "render/mix.wav",
+  "trilha": [
+    {"som": "esperanca", "de": 0, "ate": 91.91, "ganho": -21, "fade": 0.8}
+  ],
+  "abaixar_trilha_na_fala": 6,
+  "cortes": [15.75, 20.55, 23.45, 26.0, 30.29, 35.81, 40.45, 44.80, 47.55, 52.90, 57.36, 68.63, 83.91],
+  "ganho_cortes": -26,
+  "efeitos": [
+    {"t": 4.10, "som": "chamando", "ate": 5.9, "ganho": -22},
+    {"t": 7.58, "som": "whoosh", "ganho": -20},
+    {"t": 9.50, "som": "impacto", "ganho": -17},
+    {"t": 11.0, "som": "pop", "ganho": -21},
+    {"t": 14.0, "som": "brilho", "ganho": -20},
+    {"t": 16.55, "som": "toc", "ganho": -20},
+    {"t": 21.4, "som": "vibra", "ganho": -22},
+    {"t": 24.7, "som": "tic_tac", "ate": 26.0, "ganho": -23},
+    {"t": 29.40, "som": "plim_triste", "ganho": -18},
+    {"t": 33.5, "som": "swell", "ganho": -22},
+    {"t": 36.4, "som": "ding", "ganho": -20},
+    {"t": 43.78, "som": "pop", "ganho": -19},
+    {"t": 44.9, "som": "whoosh", "ganho": -22},
+    {"t": 53.6, "som": "toc", "ganho": -20},
+    {"t": 58.0, "som": "whoosh", "ganho": -18},
+    {"t": 58.48, "som": "impacto", "ganho": -16},
+    {"t": 62.3, "som": "ding", "ganho": -20},
+    {"t": 66.85, "som": "toc", "ganho": -23},
+    {"t": 67.85, "som": "pop", "ganho": -17},
+    {"t": 70.92, "som": "toc", "ganho": -20},
+    {"t": 73.8, "som": "sopro_magico", "ganho": -19},
+    {"t": 75.25, "som": "risadinha", "ganho": -20},
+    {"t": 82.3, "som": "brilho", "ganho": -20},
+    {"t": 86.9, "som": "chamando", "ate": 88.4, "ganho": -22},
+    {"t": 90.0, "som": "sino", "ganho": -19}
+  ]
+}

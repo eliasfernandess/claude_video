@@ -1,0 +1,1529 @@
+{
+"words": [
+{
+"text": "E",
+"start": 0.0,
+"end": 0.117
+},
+{
+"text": "se",
+"start": 0.117,
+"end": 0.272
+},
+{
+"text": "o",
+"start": 0.272,
+"end": 0.388
+},
+{
+"text": "universo",
+"start": 0.388,
+"end": 0.777
+},
+{
+"text": "tivesse",
+"start": 0.777,
+"end": 1.127
+},
+{
+"text": "escrito",
+"start": 1.127,
+"end": 1.476
+},
+{
+"text": "a",
+"start": 1.476,
+"end": 1.593
+},
+{
+"text": "sua",
+"start": 1.593,
+"end": 1.787
+},
+{
+"text": "vida",
+"start": 1.787,
+"end": 2.02
+},
+{
+"text": "inteira…",
+"start": 2.02,
+"end": 2.37
+},
+{
+"text": "e",
+"start": 2.538,
+"end": 2.65
+},
+{
+"text": "você",
+"start": 2.65,
+"end": 2.875
+},
+{
+"text": "encontrasse",
+"start": 2.875,
+"end": 3.362
+},
+{
+"text": "o",
+"start": 3.362,
+"end": 3.474
+},
+{
+"text": "roteiro",
+"start": 3.474,
+"end": 3.811
+},
+{
+"text": "por",
+"start": 3.811,
+"end": 3.999
+},
+{
+"text": "acidente?",
+"start": 3.999,
+"end": 4.373
+},
+{
+"text": "Você",
+"start": 4.477,
+"end": 4.704
+},
+{
+"text": "estaria",
+"start": 4.704,
+"end": 5.044
+},
+{
+"text": "numa",
+"start": 5.044,
+"end": 5.272
+},
+{
+"text": "cafeteria",
+"start": 5.272,
+"end": 5.688
+},
+{
+"text": "quando",
+"start": 5.688,
+"end": 5.991
+},
+{
+"text": "um",
+"start": 5.991,
+"end": 6.142
+},
+{
+"text": "homem",
+"start": 6.142,
+"end": 6.407
+},
+{
+"text": "deixasse",
+"start": 6.407,
+"end": 6.786
+},
+{
+"text": "cair",
+"start": 6.786,
+"end": 7.013
+},
+{
+"text": "um",
+"start": 7.013,
+"end": 7.164
+},
+{
+"text": "envelope.",
+"start": 7.164,
+"end": 7.543
+},
+{
+"text": "Na",
+"start": 7.678,
+"end": 7.846
+},
+{
+"text": "frente,",
+"start": 7.846,
+"end": 8.181
+},
+{
+"text": "estaria",
+"start": 8.181,
+"end": 8.558
+},
+{
+"text": "seu",
+"start": 8.558,
+"end": 8.768
+},
+{
+"text": "nome.",
+"start": 8.768,
+"end": 9.019
+},
+{
+"text": "Dentro,",
+"start": 9.152,
+"end": 9.584
+},
+{
+"text": "cada",
+"start": 9.738,
+"end": 9.973
+},
+{
+"text": "detalhe",
+"start": 9.973,
+"end": 10.326
+},
+{
+"text": "daquela",
+"start": 10.326,
+"end": 10.68
+},
+{
+"text": "manhã.",
+"start": 10.68,
+"end": 10.954
+},
+{
+"text": "A",
+"start": 11.103,
+"end": 11.231
+},
+{
+"text": "roupa",
+"start": 11.231,
+"end": 11.529
+},
+{
+"text": "que",
+"start": 11.529,
+"end": 11.742
+},
+{
+"text": "escolheu.",
+"start": 11.742,
+"end": 12.168
+},
+{
+"text": "O",
+"start": 12.168,
+"end": 12.295
+},
+{
+"text": "café",
+"start": 12.295,
+"end": 12.551
+},
+{
+"text": "que",
+"start": 12.551,
+"end": 12.764
+},
+{
+"text": "pediu.",
+"start": 12.764,
+"end": 13.062
+},
+{
+"text": "A",
+"start": 13.226,
+"end": 13.344
+},
+{
+"text": "mensagem",
+"start": 13.344,
+"end": 13.737
+},
+{
+"text": "que",
+"start": 13.737,
+"end": 13.934
+},
+{
+"text": "escreveu",
+"start": 13.934,
+"end": 14.328
+},
+{
+"text": "e",
+"start": 14.328,
+"end": 14.446
+},
+{
+"text": "apagou.",
+"start": 14.446,
+"end": 14.76
+},
+{
+"text": "Até",
+"start": 14.917,
+"end": 15.111
+},
+{
+"text": "a",
+"start": 15.111,
+"end": 15.228
+},
+{
+"text": "frase",
+"start": 15.228,
+"end": 15.499
+},
+{
+"text": "que",
+"start": 15.499,
+"end": 15.693
+},
+{
+"text": "você",
+"start": 15.693,
+"end": 15.926
+},
+{
+"text": "estaria",
+"start": 15.926,
+"end": 16.275
+},
+{
+"text": "pensando",
+"start": 16.275,
+"end": 16.663
+},
+{
+"text": "naquele",
+"start": 16.663,
+"end": 17.013
+},
+{
+"text": "instante:",
+"start": 17.013,
+"end": 17.401
+},
+{
+"text": "Isso",
+"start": 17.401,
+"end": 17.634
+},
+{
+"text": "só",
+"start": 17.634,
+"end": 17.789
+},
+{
+"text": "pode",
+"start": 17.789,
+"end": 18.022
+},
+{
+"text": "ser",
+"start": 18.022,
+"end": 18.216
+},
+{
+"text": "uma",
+"start": 18.216,
+"end": 18.41
+},
+{
+"text": "brincadeira.",
+"start": 18.41,
+"end": 18.914
+},
+{
+"text": "Você",
+"start": 19.058,
+"end": 19.312
+},
+{
+"text": "viraria",
+"start": 19.312,
+"end": 19.695
+},
+{
+"text": "a",
+"start": 19.695,
+"end": 19.822
+},
+{
+"text": "página.",
+"start": 19.822,
+"end": 20.162
+},
+{
+"text": "Ele",
+"start": 20.285,
+"end": 20.468
+},
+{
+"text": "vai",
+"start": 20.468,
+"end": 20.651
+},
+{
+"text": "receber",
+"start": 20.651,
+"end": 20.981
+},
+{
+"text": "uma",
+"start": 20.981,
+"end": 21.164
+},
+{
+"text": "oportunidade.",
+"start": 21.164,
+"end": 21.677
+},
+{
+"text": "Vai",
+"start": 21.86,
+"end": 22.067
+},
+{
+"text": "sentir",
+"start": 22.067,
+"end": 22.398
+},
+{
+"text": "medo.",
+"start": 22.398,
+"end": 22.646
+},
+{
+"text": "E",
+"start": 22.798,
+"end": 22.901
+},
+{
+"text": "vai",
+"start": 22.901,
+"end": 23.073
+},
+{
+"text": "dizer",
+"start": 23.073,
+"end": 23.313
+},
+{
+"text": "que",
+"start": 23.313,
+"end": 23.485
+},
+{
+"text": "agora",
+"start": 23.485,
+"end": 23.726
+},
+{
+"text": "não",
+"start": 23.726,
+"end": 23.897
+},
+{
+"text": "é",
+"start": 23.897,
+"end": 24.001
+},
+{
+"text": "a",
+"start": 24.001,
+"end": 24.104
+},
+{
+"text": "hora.",
+"start": 24.104,
+"end": 24.31
+},
+{
+"text": "Seu",
+"start": 24.442,
+"end": 24.653
+},
+{
+"text": "celular",
+"start": 24.653,
+"end": 25.032
+},
+{
+"text": "vibraria.",
+"start": 25.032,
+"end": 25.453
+},
+{
+"text": "Seria",
+"start": 25.655,
+"end": 25.942
+},
+{
+"text": "exatamente",
+"start": 25.942,
+"end": 26.434
+},
+{
+"text": "aquela",
+"start": 26.434,
+"end": 26.762
+},
+{
+"text": "oportunidade.",
+"start": 26.762,
+"end": 27.335
+},
+{
+"text": "Você",
+"start": 27.335,
+"end": 27.581
+},
+{
+"text": "começaria",
+"start": 27.581,
+"end": 28.032
+},
+{
+"text": "a",
+"start": 28.032,
+"end": 28.155
+},
+{
+"text": "escrever",
+"start": 28.155,
+"end": 28.565
+},
+{
+"text": "uma",
+"start": 28.565,
+"end": 28.77
+},
+{
+"text": "desculpa…",
+"start": 28.77,
+"end": 29.18
+},
+{
+"text": "Mas",
+"start": 29.339,
+"end": 29.547
+},
+{
+"text": "pararia",
+"start": 29.547,
+"end": 29.921
+},
+{
+"text": "antes",
+"start": 29.921,
+"end": 30.212
+},
+{
+"text": "de",
+"start": 30.212,
+"end": 30.378
+},
+{
+"text": "enviar.",
+"start": 30.378,
+"end": 30.71
+},
+{
+"text": "Nas",
+"start": 30.846,
+"end": 31.045
+},
+{
+"text": "páginas",
+"start": 31.045,
+"end": 31.403
+},
+{
+"text": "seguintes,",
+"start": 31.403,
+"end": 31.841
+},
+{
+"text": "os",
+"start": 31.841,
+"end": 32.001
+},
+{
+"text": "dias",
+"start": 32.001,
+"end": 32.24
+},
+{
+"text": "seriam",
+"start": 32.24,
+"end": 32.558
+},
+{
+"text": "quase",
+"start": 32.558,
+"end": 32.837
+},
+{
+"text": "iguais.",
+"start": 32.837,
+"end": 33.155
+},
+{
+"text": "Acordar.",
+"start": 33.26,
+"end": 33.6
+},
+{
+"text": "Trabalhar.",
+"start": 33.6,
+"end": 34.015
+},
+{
+"text": "Voltar",
+"start": 34.015,
+"end": 34.317
+},
+{
+"text": "pra",
+"start": 34.317,
+"end": 34.505
+},
+{
+"text": "casa.",
+"start": 34.505,
+"end": 34.732
+},
+{
+"text": "Mexer",
+"start": 34.732,
+"end": 34.996
+},
+{
+"text": "no",
+"start": 34.996,
+"end": 35.147
+},
+{
+"text": "celular.",
+"start": 35.147,
+"end": 35.487
+},
+{
+"text": "De",
+"start": 35.487,
+"end": 35.638
+},
+{
+"text": "vez",
+"start": 35.638,
+"end": 35.827
+},
+{
+"text": "em",
+"start": 35.827,
+"end": 35.978
+},
+{
+"text": "quando,",
+"start": 35.978,
+"end": 36.28
+},
+{
+"text": "você",
+"start": 36.425,
+"end": 36.777
+},
+{
+"text": "tentaria",
+"start": 36.777,
+"end": 37.365
+},
+{
+"text": "algo",
+"start": 37.365,
+"end": 37.717
+},
+{
+"text": "diferente.",
+"start": 37.717,
+"end": 38.363
+},
+{
+"text": "Mas",
+"start": 38.482,
+"end": 38.694
+},
+{
+"text": "sempre",
+"start": 38.694,
+"end": 39.033
+},
+{
+"text": "apareceria",
+"start": 39.033,
+"end": 39.542
+},
+{
+"text": "a",
+"start": 39.542,
+"end": 39.669
+},
+{
+"text": "mesma",
+"start": 39.669,
+"end": 39.966
+},
+{
+"text": "frase:",
+"start": 39.966,
+"end": 40.263
+},
+{
+"text": "Ele",
+"start": 40.383,
+"end": 40.591
+},
+{
+"text": "decidiu",
+"start": 40.591,
+"end": 40.964
+},
+{
+"text": "deixar",
+"start": 40.964,
+"end": 41.296
+},
+{
+"text": "pra",
+"start": 41.296,
+"end": 41.504
+},
+{
+"text": "depois.",
+"start": 41.504,
+"end": 41.836
+},
+{
+"text": "Depois",
+"start": 41.956,
+"end": 42.303
+},
+{
+"text": "de",
+"start": 42.303,
+"end": 42.476
+},
+{
+"text": "ter",
+"start": 42.476,
+"end": 42.693
+},
+{
+"text": "dinheiro.",
+"start": 42.693,
+"end": 43.126
+},
+{
+"text": "Depois",
+"start": 43.126,
+"end": 43.473
+},
+{
+"text": "de",
+"start": 43.473,
+"end": 43.647
+},
+{
+"text": "ter",
+"start": 43.647,
+"end": 43.864
+},
+{
+"text": "tempo.",
+"start": 43.864,
+"end": 44.167
+},
+{
+"text": "Depois",
+"start": 44.319,
+"end": 44.644
+},
+{
+"text": "de",
+"start": 44.644,
+"end": 44.806
+},
+{
+"text": "se",
+"start": 44.806,
+"end": 44.969
+},
+{
+"text": "sentir",
+"start": 44.969,
+"end": 45.293
+},
+{
+"text": "pronto.",
+"start": 45.293,
+"end": 45.618
+},
+{
+"text": "Você",
+"start": 45.756,
+"end": 45.981
+},
+{
+"text": "procuraria",
+"start": 45.981,
+"end": 46.429
+},
+{
+"text": "a",
+"start": 46.429,
+"end": 46.542
+},
+{
+"text": "página",
+"start": 46.542,
+"end": 46.841
+},
+{
+"text": "em",
+"start": 46.841,
+"end": 46.991
+},
+{
+"text": "que",
+"start": 46.991,
+"end": 47.178
+},
+{
+"text": "finalmente",
+"start": 47.178,
+"end": 47.626
+},
+{
+"text": "começava",
+"start": 47.626,
+"end": 48.0
+},
+{
+"text": "a",
+"start": 48.0,
+"end": 48.113
+},
+{
+"text": "viver",
+"start": 48.113,
+"end": 48.375
+},
+{
+"text": "como",
+"start": 48.375,
+"end": 48.599
+},
+{
+"text": "queria.",
+"start": 48.599,
+"end": 48.898
+},
+{
+"text": "Não",
+"start": 49.044,
+"end": 49.234
+},
+{
+"text": "encontraria.",
+"start": 49.234,
+"end": 49.729
+},
+{
+"text": "Só",
+"start": 49.871,
+"end": 50.031
+},
+{
+"text": "uma",
+"start": 50.031,
+"end": 50.232
+},
+{
+"text": "versão",
+"start": 50.232,
+"end": 50.552
+},
+{
+"text": "mais",
+"start": 50.552,
+"end": 50.792
+},
+{
+"text": "velha",
+"start": 50.792,
+"end": 51.073
+},
+{
+"text": "de",
+"start": 51.073,
+"end": 51.233
+},
+{
+"text": "você",
+"start": 51.233,
+"end": 51.473
+},
+{
+"text": "dizendo:",
+"start": 51.473,
+"end": 51.834
+},
+{
+"text": "Agora",
+"start": 51.834,
+"end": 52.114
+},
+{
+"text": "é",
+"start": 52.114,
+"end": 52.234
+},
+{
+"text": "tarde.",
+"start": 52.234,
+"end": 52.514
+},
+{
+"text": "Você",
+"start": 52.514,
+"end": 52.755
+},
+{
+"text": "levantaria",
+"start": 52.755,
+"end": 53.235
+},
+{
+"text": "pra",
+"start": 53.235,
+"end": 53.436
+},
+{
+"text": "procurar",
+"start": 53.436,
+"end": 53.836
+},
+{
+"text": "o",
+"start": 53.836,
+"end": 53.956
+},
+{
+"text": "homem.",
+"start": 53.956,
+"end": 54.236
+},
+{
+"text": "O",
+"start": 54.37,
+"end": 54.478
+},
+{
+"text": "atendente",
+"start": 54.478,
+"end": 54.87
+},
+{
+"text": "bloquearia",
+"start": 54.87,
+"end": 55.299
+},
+{
+"text": "a",
+"start": 55.299,
+"end": 55.406
+},
+{
+"text": "saída.",
+"start": 55.406,
+"end": 55.656
+},
+{
+"text": "É",
+"start": 55.766,
+"end": 55.887
+},
+{
+"text": "melhor",
+"start": 55.887,
+"end": 56.209
+},
+{
+"text": "sentar.",
+"start": 56.209,
+"end": 56.531
+},
+{
+"text": "Você",
+"start": 56.531,
+"end": 56.773
+},
+{
+"text": "sempre",
+"start": 56.773,
+"end": 57.095
+},
+{
+"text": "pede",
+"start": 57.095,
+"end": 57.337
+},
+{
+"text": "outro",
+"start": 57.337,
+"end": 57.618
+},
+{
+"text": "café",
+"start": 57.618,
+"end": 57.86
+},
+{
+"text": "agora.",
+"start": 57.86,
+"end": 58.142
+},
+{
+"text": "Mas",
+"start": 58.262,
+"end": 58.419
+},
+{
+"text": "eu",
+"start": 58.419,
+"end": 58.545
+},
+{
+"text": "não",
+"start": 58.545,
+"end": 58.702
+},
+{
+"text": "quero",
+"start": 58.702,
+"end": 58.921
+},
+{
+"text": "outro",
+"start": 58.921,
+"end": 59.141
+},
+{
+"text": "café.",
+"start": 59.141,
+"end": 59.329
+},
+{
+"text": "Ele",
+"start": 59.456,
+"end": 59.648
+},
+{
+"text": "olharia",
+"start": 59.648,
+"end": 59.992
+},
+{
+"text": "assustado",
+"start": 59.992,
+"end": 60.412
+},
+{
+"text": "pro",
+"start": 60.412,
+"end": 60.603
+},
+{
+"text": "envelope.",
+"start": 60.603,
+"end": 60.985
+},
+{
+"text": "Essa",
+"start": 61.123,
+"end": 61.356
+},
+{
+"text": "resposta",
+"start": 61.356,
+"end": 61.743
+},
+{
+"text": "não",
+"start": 61.743,
+"end": 61.937
+},
+{
+"text": "estaria",
+"start": 61.937,
+"end": 62.286
+},
+{
+"text": "escrita.",
+"start": 62.286,
+"end": 62.635
+},
+{
+"text": "Pera…",
+"start": 62.779,
+"end": 63.043
+},
+{
+"text": "Aqui",
+"start": 63.176,
+"end": 63.392
+},
+{
+"text": "também",
+"start": 63.392,
+"end": 63.68
+},
+{
+"text": "tem",
+"start": 63.68,
+"end": 63.86
+},
+{
+"text": "uma",
+"start": 63.86,
+"end": 64.04
+},
+{
+"text": "resposta",
+"start": 64.04,
+"end": 64.4
+},
+{
+"text": "pronta.",
+"start": 64.4,
+"end": 64.688
+},
+{
+"text": "No",
+"start": 64.851,
+"end": 65.0
+},
+{
+"text": "meu",
+"start": 65.0,
+"end": 65.185
+},
+{
+"text": "roteiro.",
+"start": 65.185,
+"end": 65.519
+},
+{
+"text": "Tiaguin",
+"start": 65.639,
+"end": 65.986
+},
+{
+"text": "termina",
+"start": 65.986,
+"end": 66.332
+},
+{
+"text": "de",
+"start": 66.332,
+"end": 66.487
+},
+{
+"text": "falar.",
+"start": 66.487,
+"end": 66.756
+},
+{
+"text": "A",
+"start": 66.872,
+"end": 66.986
+},
+{
+"text": "pessoa",
+"start": 66.986,
+"end": 67.289
+},
+{
+"text": "passa",
+"start": 67.289,
+"end": 67.554
+},
+{
+"text": "pro",
+"start": 67.554,
+"end": 67.743
+},
+{
+"text": "próximo",
+"start": 67.743,
+"end": 68.084
+},
+{
+"text": "vídeo.",
+"start": 68.084,
+"end": 68.349
+},
+{
+"text": "E",
+"start": 68.349,
+"end": 68.463
+},
+{
+"text": "continua",
+"start": 68.463,
+"end": 68.841
+},
+{
+"text": "o",
+"start": 68.841,
+"end": 68.955
+},
+{
+"text": "dia",
+"start": 68.955,
+"end": 69.144
+},
+{
+"text": "como",
+"start": 69.144,
+"end": 69.372
+},
+{
+"text": "se",
+"start": 69.372,
+"end": 69.523
+},
+{
+"text": "não",
+"start": 69.523,
+"end": 69.712
+},
+{
+"text": "tivesse",
+"start": 69.712,
+"end": 70.053
+},
+{
+"text": "ouvido",
+"start": 70.053,
+"end": 70.356
+},
+{
+"text": "nada.",
+"start": 70.356,
+"end": 70.583
+},
+{
+"text": "Era",
+"start": 70.709,
+"end": 70.879
+},
+{
+"text": "assim",
+"start": 70.879,
+"end": 71.117
+},
+{
+"text": "que",
+"start": 71.117,
+"end": 71.287
+},
+{
+"text": "essa",
+"start": 71.287,
+"end": 71.491
+},
+{
+"text": "história",
+"start": 71.491,
+"end": 71.831
+},
+{
+"text": "deveria",
+"start": 71.831,
+"end": 72.137
+},
+{
+"text": "acabar.",
+"start": 72.137,
+"end": 72.409
+},
+{
+"text": "Com",
+"start": 72.529,
+"end": 72.716
+},
+{
+"text": "você",
+"start": 72.716,
+"end": 72.941
+},
+{
+"text": "descobrindo",
+"start": 72.941,
+"end": 73.428
+},
+{
+"text": "o",
+"start": 73.428,
+"end": 73.54
+},
+{
+"text": "roteiro…",
+"start": 73.54,
+"end": 73.877
+},
+{
+"text": "e",
+"start": 73.877,
+"end": 73.989
+},
+{
+"text": "seguindo",
+"start": 73.989,
+"end": 74.364
+},
+{
+"text": "ele",
+"start": 74.364,
+"end": 74.551
+},
+{
+"text": "mesmo",
+"start": 74.551,
+"end": 74.813
+},
+{
+"text": "assim.",
+"start": 74.813,
+"end": 75.075
+},
+{
+"text": "Porque",
+"start": 75.229,
+"end": 75.501
+},
+{
+"text": "o",
+"start": 75.501,
+"end": 75.602
+},
+{
+"text": "universo",
+"start": 75.602,
+"end": 75.942
+},
+{
+"text": "nem",
+"start": 75.942,
+"end": 76.112
+},
+{
+"text": "precisaria",
+"start": 76.112,
+"end": 76.519
+},
+{
+"text": "te",
+"start": 76.519,
+"end": 76.655
+},
+{
+"text": "obrigar.",
+"start": 76.655,
+"end": 76.961
+},
+{
+"text": "Bastaria",
+"start": 77.119,
+"end": 77.461
+},
+{
+"text": "contar",
+"start": 77.461,
+"end": 77.735
+},
+{
+"text": "com",
+"start": 77.735,
+"end": 77.906
+},
+{
+"text": "o",
+"start": 77.906,
+"end": 78.009
+},
+{
+"text": "seu",
+"start": 78.009,
+"end": 78.18
+},
+{
+"text": "costume",
+"start": 78.18,
+"end": 78.488
+},
+{
+"text": "de",
+"start": 78.488,
+"end": 78.625
+},
+{
+"text": "deixar",
+"start": 78.625,
+"end": 78.898
+},
+{
+"text": "tudo",
+"start": 78.898,
+"end": 79.104
+},
+{
+"text": "pra",
+"start": 79.104,
+"end": 79.275
+},
+{
+"text": "depois.",
+"start": 79.275,
+"end": 79.548
+},
+{
+"text": "E",
+"start": 79.548,
+"end": 79.651
+},
+{
+"text": "você?",
+"start": 79.651,
+"end": 79.856
+},
+{
+"text": "Vai",
+"start": 79.97,
+"end": 80.163
+},
+{
+"text": "continuar",
+"start": 80.163,
+"end": 80.711
+},
+{
+"text": "vivendo",
+"start": 80.711,
+"end": 81.057
+},
+{
+"text": "o",
+"start": 81.057,
+"end": 81.173
+},
+{
+"text": "roteiro",
+"start": 81.173,
+"end": 81.52
+},
+{
+"text": "que",
+"start": 81.52,
+"end": 81.712
+},
+{
+"text": "o",
+"start": 81.712,
+"end": 81.828
+},
+{
+"text": "universo",
+"start": 81.828,
+"end": 82.213
+},
+{
+"text": "escreveu",
+"start": 82.213,
+"end": 82.598
+},
+{
+"text": "pra",
+"start": 82.598,
+"end": 82.791
+},
+{
+"text": "você…",
+"start": 82.791,
+"end": 83.022
+},
+{
+"text": "Ou",
+"start": 83.172,
+"end": 83.314
+},
+{
+"text": "vai",
+"start": 83.314,
+"end": 83.49
+},
+{
+"text": "sair",
+"start": 83.49,
+"end": 83.703
+},
+{
+"text": "do",
+"start": 83.703,
+"end": 83.844
+},
+{
+"text": "automático",
+"start": 83.844,
+"end": 84.268
+},
+{
+"text": "e",
+"start": 84.268,
+"end": 84.374
+},
+{
+"text": "começar",
+"start": 84.374,
+"end": 84.692
+},
+{
+"text": "a",
+"start": 84.692,
+"end": 84.798
+},
+{
+"text": "mudar",
+"start": 84.798,
+"end": 85.046
+},
+{
+"text": "a",
+"start": 85.046,
+"end": 85.152
+},
+{
+"text": "sua",
+"start": 85.152,
+"end": 85.329
+},
+{
+"text": "história?",
+"start": 85.329,
+"end": 85.682
+}
+]
+}

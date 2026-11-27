@@ -1,0 +1,5 @@
+render/parte*
+render/*.log
+gsap.min.js
+assets/audio/*.wav
+assets/audio/*.mp3
