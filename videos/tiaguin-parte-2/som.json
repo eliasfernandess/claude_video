@@ -1,0 +1,346 @@
+{
+ "voz": "assets/audio/voz.wav",
+ "biblioteca": "../../audio",
+ "saida_audio": "render/mix.wav",
+ "trilha": [
+  {
+   "som": "vt_alegre",
+   "de": 0,
+   "ate": 14.0,
+   "ganho": -13,
+   "fade": 0.3
+  },
+  {
+   "som": "vt_suspense",
+   "de": 13.9,
+   "ate": 15.95,
+   "ganho": -12,
+   "fade": 0.15
+  },
+  {
+   "som": "vt_suspense",
+   "de": 16.8,
+   "ate": 22.75,
+   "ganho": -13,
+   "fade": 0.3
+  },
+  {
+   "som": "vt_aventura",
+   "de": 24.2,
+   "ate": 39.85,
+   "ganho": -13,
+   "fade": 0.3
+  },
+  {
+   "som": "vt_emocao",
+   "de": 43.1,
+   "ate": 52.6,
+   "ganho": -12,
+   "fade": 0.5
+  },
+  {
+   "som": "vt_alegre",
+   "de": 52.5,
+   "ate": 63.2,
+   "ganho": -13,
+   "fade": 0.4
+  },
+  {
+   "som": "vt_emocao",
+   "de": 63.1,
+   "ate": 79.86,
+   "ganho": -12,
+   "fade": 0.6
+  }
+ ],
+ "abaixar_trilha_na_fala": 7,
+ "efeitos": [
+  {
+   "t": 0.05,
+   "som": "swish",
+   "ganho": -22
+  },
+  {
+   "t": 0.6,
+   "som": "whoosh",
+   "ganho": -20
+  },
+  {
+   "t": 1.76,
+   "som": "brilho_sobe",
+   "ganho": -20
+  },
+  {
+   "t": 2.45,
+   "som": "swish",
+   "ganho": -22
+  },
+  {
+   "t": 4.12,
+   "som": "swish",
+   "ganho": -22
+  },
+  {
+   "t": 5.72,
+   "som": "plim",
+   "ganho": -18
+  },
+  {
+   "t": 7.9,
+   "som": "whoosh_curto",
+   "ganho": -24
+  },
+  {
+   "t": 11.42,
+   "som": "pop",
+   "ganho": -20
+  },
+  {
+   "t": 14.14,
+   "som": "pop",
+   "ganho": -16
+  },
+  {
+   "t": 14.74,
+   "som": "pop",
+   "ganho": -16
+  },
+  {
+   "t": 15.36,
+   "som": "pop",
+   "ganho": -16
+  },
+  {
+   "t": 16.3,
+   "som": "impacto",
+   "ganho": -18
+  },
+  {
+   "t": 16.95,
+   "som": "apagar",
+   "ganho": -16
+  },
+  {
+   "t": 18.0,
+   "som": "sopro_magico",
+   "ganho": -22
+  },
+  {
+   "t": 20.13,
+   "som": "brilho",
+   "ganho": -22
+  },
+  {
+   "t": 21.13,
+   "som": "boing",
+   "ganho": -16
+  },
+  {
+   "t": 21.77,
+   "som": "pop",
+   "ganho": -22
+  },
+  {
+   "t": 24.4,
+   "som": "riser",
+   "ganho": -20
+  },
+  {
+   "t": 27.7,
+   "som": "plim",
+   "ganho": -20
+  },
+  {
+   "t": 28.59,
+   "som": "brilho_sobe",
+   "ganho": -18
+  },
+  {
+   "t": 28.62,
+   "som": "whoosh",
+   "ganho": -18
+  },
+  {
+   "t": 30.95,
+   "som": "swish",
+   "ganho": -20
+  },
+  {
+   "t": 31.85,
+   "som": "sino_torre",
+   "ganho": -16
+  },
+  {
+   "t": 32.43,
+   "som": "swish",
+   "ganho": -20
+  },
+  {
+   "t": 33.57,
+   "som": "whoosh",
+   "ganho": -20
+  },
+  {
+   "t": 34.3,
+   "som": "impacto",
+   "ganho": -22
+  },
+  {
+   "t": 35.9,
+   "som": "boing",
+   "ganho": -22
+  },
+  {
+   "t": 37.75,
+   "som": "whoosh_curto",
+   "ganho": -22
+  },
+  {
+   "t": 38.25,
+   "som": "impacto",
+   "ganho": -22
+  },
+  {
+   "t": 38.75,
+   "som": "impacto",
+   "ganho": -24
+  },
+  {
+   "t": 43.24,
+   "som": "swish",
+   "ganho": -22
+  },
+  {
+   "t": 44.92,
+   "som": "whoosh",
+   "ganho": -20
+  },
+  {
+   "t": 45.2,
+   "som": "swell",
+   "ganho": -18
+  },
+  {
+   "t": 46.42,
+   "som": "brilho_sobe",
+   "ganho": -20
+  },
+  {
+   "t": 53.88,
+   "som": "poder_volta",
+   "ganho": -18
+  },
+  {
+   "t": 55.72,
+   "som": "poder_volta",
+   "ganho": -18
+  },
+  {
+   "t": 58.66,
+   "som": "plim",
+   "ganho": -20
+  },
+  {
+   "t": 59.04,
+   "som": "plim",
+   "ganho": -20
+  },
+  {
+   "t": 60.8,
+   "som": "poder_volta",
+   "ganho": -18
+  },
+  {
+   "t": 61.4,
+   "som": "pop",
+   "ganho": -20
+  },
+  {
+   "t": 63.6,
+   "som": "swell",
+   "ganho": -22
+  },
+  {
+   "t": 68.2,
+   "som": "brilho_sobe",
+   "ganho": -20
+  },
+  {
+   "t": 69.61,
+   "som": "brilho",
+   "ganho": -16
+  },
+  {
+   "t": 70.1,
+   "som": "riser",
+   "ganho": -18
+  },
+  {
+   "t": 72.57,
+   "som": "whoosh",
+   "ganho": -18
+  },
+  {
+   "t": 73.0,
+   "som": "fogos",
+   "ganho": -18
+  },
+  {
+   "t": 75.23,
+   "som": "swish",
+   "ganho": -22
+  },
+  {
+   "t": 77.3,
+   "som": "plim",
+   "ganho": -20
+  },
+  {
+   "t": 77.85,
+   "som": "whoosh_curto",
+   "ganho": -20
+  },
+  {
+   "t": 6.66,
+   "som": "tic_tac",
+   "ganho": -22,
+   "ate": 7.9
+  },
+  {
+   "t": 26.25,
+   "som": "fogo",
+   "ganho": -24,
+   "ate": 27.25
+  },
+  {
+   "t": 28.6,
+   "som": "amb_vento",
+   "ganho": -24,
+   "ate": 39.8
+  },
+  {
+   "t": 0,
+   "som": "amb_festa_noite",
+   "ganho": -26,
+   "ate": 16.27
+  },
+  {
+   "t": 16.9,
+   "som": "amb_festa_noite",
+   "ganho": -31,
+   "ate": 35.5
+  },
+  {
+   "t": 39.8,
+   "som": "amb_festa_noite",
+   "ganho": -32,
+   "ate": 43.2
+  },
+  {
+   "t": 48.7,
+   "som": "amb_festa_noite",
+   "ganho": -29,
+   "ate": 79.86
+  }
+ ]
+}

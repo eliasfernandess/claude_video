@@ -180,3 +180,30 @@ escala: 0,71  0,70  0,74  0,81  0,88  0,95  0,99  1,00 1,00
 - Fusão: `opacity`.
 - Pop-in: `scale` + `rotation` + borrão.
 - Personagens: peças separadas (cabeça, olhos, boca, braços), com as poses trocadas por `visibility`.
+
+## O som (7 vídeos medidos com Whisper e espectrograma)
+
+| Medida | Vitinho | Nossa receita (Estilo 4) |
+|---|---|---|
+| Palavras por segundo | **3,45 a 3,83** (média ~3,57) | 3,45 a 3,65 (`apertar_voz.py --pausa 0.2`, velocidade 1,1 a 1,2) |
+| Fala começa em | 0,0 s em todos | 0,0 s |
+| Voz acima da trilha (nos intervalos) | **~7 a 10 dB**: a trilha é bem presente | ~9 a 10 dB (trilha -12 a -13 dB, abaixando 7 na fala) |
+| Momentos de quase silêncio | **3 a 10% do vídeo**: a música some nas viradas | trilha cortada nas frases dramáticas, só com o ambiente baixinho |
+| Pausas na fala | quase nenhuma | até 0,2 s, mais 3 ou 4 pausas dramáticas de 0,35 s |
+
+**Como é a trilha dele:**
+- fundo contínuo e macio (pad);
+- por cima, notas leves: cordas dedilhadas, caixinha de música e sininhos;
+- troca de música por clima.
+
+**Efeitos que ele usa:**
+- **ambiente**: vento, multidão;
+- **brilhinhos agudos** nas palavras mágicas;
+- **"swish"** em parte dos cortes, de 6 a 56% conforme o vídeo.
+
+**As nossas versões (livres de direitos):** `ferramentas/gerar_trilhas_vitinho.py` gera:
+- as trilhas `vt_alegre`, `vt_suspense`, `vt_aventura` e `vt_emocao`;
+- os efeitos `swish`, `brilho_sobe`, `plim`, `boing`, `apagar`, `poder_volta`, `sino_torre`, `fogos` e `amb_festa_noite`.
+
+Exemplo completo: `videos/tiaguin-parte-2/som.json`.
+
